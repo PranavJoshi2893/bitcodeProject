@@ -1,11 +1,52 @@
 <nav>
-    <div class="logo">Logo</div>
-    <a href="#">Home</a>
-    <a href="#">Course</a>
-    <a href="#">DMAD</a>
-    <a href="#">Schedule</a>
-    <a href="#">Clients</a>
-    <a href="#">Placement</a>
-    <a href="#">About-Us</a>
-    <a href="#">Contact</a>
+    <div class="logo"><img src="./assets/images/bitcode.png" alt="img not found"></div>
+    <a class="tooltip" href="#">Home 
+        <div class="tooltiptext">
+            <app-tool-tip></app-tool-tip>
+        </div>
+    </a>
+    
+    
+    <a class="tooltip" href="#">Course 
+        <span class="tooltiptext">
+            <app-tool-tip [arr]="courses"></app-tool-tip>
+        </span>
+    </a>
+    
+    
+    <a class="tooltip" href="#">DMAD 
+        <span class="tooltiptext">
+            <app-tool-tip></app-tool-tip>
+        </span>
+    </a>
+    
+    <a class="tooltip" href="#">Schedule
+         <span class="tooltiptext">
+            <app-tool-tip></app-tool-tip>
+        </span>
+    </a>
+    
+    <a class="tooltip" href="#">Clients 
+        <span class="tooltiptext">
+            <app-tool-tip></app-tool-tip>
+        </span>
+    </a>
+    
+    <a class="tooltip" href="#">Placement 
+        <span class="tooltiptext">
+            <app-tool-tip></app-tool-tip>
+        </span>
+    </a>
+    
+    <a class="tooltip" href="#">About-Us 
+        <span class="tooltiptext">
+            <app-tool-tip></app-tool-tip>
+        </span>
+    </a>
+    
+    <a class="tooltip" href="#">Contact 
+        <span class="tooltiptext">
+            <app-tool-tip></app-tool-tip>
+        </span>
+    </a>
 </nav>
