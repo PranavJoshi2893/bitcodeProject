@@ -1,52 +1,61 @@
-<nav>
-    <div class="logo"><img src="./assets/images/bitcode.png" alt="img not found"></div>
-    <a class="tooltip" href="#">Home 
-        <div class="tooltiptext">
-            <app-tool-tip></app-tool-tip>
-        </div>
-    </a>
-    
-    
-    <a class="tooltip" href="#">Course 
-        <span class="tooltiptext">
-            <app-tool-tip [arr]="courses"></app-tool-tip>
-        </span>
-    </a>
-    
-    
-    <a class="tooltip" href="#">DMAD 
-        <span class="tooltiptext">
-            <app-tool-tip></app-tool-tip>
-        </span>
-    </a>
-    
-    <a class="tooltip" href="#">Schedule
-         <span class="tooltiptext">
-            <app-tool-tip></app-tool-tip>
-        </span>
-    </a>
-    
-    <a class="tooltip" href="#">Clients 
-        <span class="tooltiptext">
-            <app-tool-tip></app-tool-tip>
-        </span>
-    </a>
-    
-    <a class="tooltip" href="#">Placement 
-        <span class="tooltiptext">
-            <app-tool-tip></app-tool-tip>
-        </span>
-    </a>
-    
-    <a class="tooltip" href="#">About-Us 
-        <span class="tooltiptext">
-            <app-tool-tip></app-tool-tip>
-        </span>
-    </a>
-    
-    <a class="tooltip" href="#">Contact 
-        <span class="tooltiptext">
-            <app-tool-tip></app-tool-tip>
-        </span>
-    </a>
-</nav>
+<div class="mainContainer">
+    <nav>
+        <div class="logo"><img src="./assets/images/bitcode.png" alt="img not found"></div>
+        
+        <a class="tooltip" href="#" *ngIf="onWindowResize()">Home 
+            <div class="tooltiptext">
+                <app-tool-tip></app-tool-tip>
+            </div>
+        </a>
+        
+        
+        <a class="tooltip" href="#" *ngIf="onWindowResize()">Course 
+            <span class="tooltiptext">
+                <app-tool-tip [arr]="courses"></app-tool-tip>
+            </span>
+        </a>
+        
+        
+        <a class="tooltip" href="#" *ngIf="onWindowResize()">DMAD 
+            <span class="tooltiptext">
+                <app-tool-tip></app-tool-tip>
+            </span>
+        </a>
+        
+        <a class="tooltip" href="#" *ngIf="onWindowResize()">Schedule
+             <span class="tooltiptext">
+                <app-tool-tip></app-tool-tip>
+            </span>
+        </a>
+        
+        <a class="tooltip" href="#" *ngIf="onWindowResize()">Clients 
+            <span class="tooltiptext">
+                <app-tool-tip></app-tool-tip>
+            </span>
+        </a>
+        
+        <a class="tooltip" href="#" *ngIf="onWindowResize()">Placement 
+            <span class="tooltiptext">
+                <app-tool-tip></app-tool-tip>
+            </span>
+        </a>
+        
+        <a class="tooltip" href="#" *ngIf="onWindowResize()">About-Us 
+            <span class="tooltiptext">
+                <app-tool-tip></app-tool-tip>
+            </span>
+        </a>
+        
+        <a class="tooltip" href="#" *ngIf="onWindowResize()">Contact 
+            <span class="tooltiptext">
+                <app-tool-tip></app-tool-tip>
+            </span>
+        </a>
+
+        <a href="#" class="hamburger-logo" *ngIf="!onWindowResize()">
+            <span class="material-symbols-rounded">
+                menu
+            </span>
+        </a>
+    </nav>
+</div>

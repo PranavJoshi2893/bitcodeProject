@@ -1,0 +1,33 @@
+.background{
+    background-color: #f8f9fa;
+}
+.mainContainer{
+    width: 1024px;
+    margin: 3px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+h1{
+    font-size: 4rem;
+}
+.cardHolder{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    height: 1000px;
+    gap: 2%;
+}
+.commonProperties{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4%;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px grey;
+}
