@@ -1,16 +1,21 @@
 nav{
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    margin: 0 auto;
-    gap: 2.19%;
+    grid-template-columns: repeat(8,1fr);
+    width: 760px;
     height: 70px;
     align-items: center;
     font-size: 0.9rem;
     font-weight: bold;
+    margin-right: 40px;
+}
+.imageContainer{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 a{
     display: block;
-    width: 85px;
     padding: 10px;
     border-radius: 25px;
     text-align: center;
@@ -24,19 +29,12 @@ a:hover{
 .mainContainer{
     box-shadow: 0px 0.1px 4px grey;
     height: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 @media screen and (min-width:1024px) {
-    nav{
-        width: 1024px;
-    }
-
-    .logo{
-        grid-column: span 4;
-    }
-    
-
     .tooltip{
         position: relative;
         display: inline-block;
@@ -65,12 +63,15 @@ a:hover{
     }
 }
 
-@media screen and (max-width:1023px) {
-    .logo{
-        grid-column: span 11;
-    } 
+.menuContainer{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.hamburger-logo{
-    grid-column: span 1;
+.menuContainer .menuIcon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
