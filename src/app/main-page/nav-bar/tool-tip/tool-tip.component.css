@@ -1,21 +1,22 @@
-ul{
+.courses{
     list-style-type: none;
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    grid-template-rows: minmax(100px) repeat(2,2fr);
     text-align: left;
+    gap: 20px;
 }
-li{
+.courses .courseElement{
     font-weight: 400;
     padding: 15px;
     border-radius: 25px;
     display: flex;
     align-items: center;
+    list-style-type: none;
 }
-li:hover{
+.courses .courseElement:hover{
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0.03);
     color: blue;  

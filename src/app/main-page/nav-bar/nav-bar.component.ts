@@ -1,4 +1,5 @@
 import { Component, HostListener, OnInit} from '@angular/core';
+import { CoursesModel } from 'src/app/model/courses-model';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,10 +7,17 @@ import { Component, HostListener, OnInit} from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
-
-  courses:string[]=["Mobile Application Development","Database Technology","Programming Languages","Java Technology","Web Technology","Software Testing Courses","Diploma Courses"];
-
-
+  
+  courses:CoursesModel[]=[
+    new CoursesModel("Mobile Application Development",["Android App Development","Android Expert","iPhone App Development","iExpert"]),
+    new CoursesModel("Web Technology",["Web Expert","Angular 8","Angular and Node.JS","React JS and React Native ","PHP/MySQL"]),
+    new CoursesModel("Programming Languages",["C Programming","C++ Programming","Data Structure using C, C++","Python"]),
+    new CoursesModel("Java Technology",["Core Java","Adv. Java(Sarvlet, JSP)","Java Expert"]),
+    new CoursesModel("Database Technology",["Big Data Hadoop"]),
+    new CoursesModel("Software Testing Courses",["Software Testing"]),
+    new CoursesModel("Diploma Courses",["DMAD (Diploma in Mobile App Development)"])
+  ];
+  
   public getScreenWidth:any;
 
   ngOnInit():void{

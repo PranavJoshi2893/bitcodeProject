@@ -1,5 +1,10 @@
-<ul>
-    <li *ngFor="let ele of arr">
-        <span>{{ele}}</span>
-    </li>
-</ul>
+<div>
+    <ul class="courses">
+        <li *ngFor="let ele of arr" >
+            <span>{{ele.courseName}}</span>
+            <ul *ngFor="let subEle of ele.subCourseName" class="courseElement">
+                <li>{{subEle}}</li>
+            </ul>
+        </li>
+    </ul>
+</div>

@@ -4,46 +4,70 @@
         
 
     <nav *ngIf="onWindowResize()">
-        <a class="tooltip" href="#">Home 
-            <div class="tooltiptext">
-                <app-tool-tip></app-tool-tip>
-            </div>
-        </a>
-        <a class="tooltip" href="#">Course 
-            <span class="tooltiptext">
-                <app-tool-tip [arr]="courses"></app-tool-tip>
-            </span>
-        </a>
-        <a class="tooltip" href="#">DMAD 
-            <span class="tooltiptext">
-                <app-tool-tip></app-tool-tip>
-            </span>
-        </a>
-        <a class="tooltip" href="#">Schedule
-             <span class="tooltiptext">
-                <app-tool-tip></app-tool-tip>
-            </span>
-        </a>
-        <a class="tooltip" href="#">Clients 
-            <span class="tooltiptext">
-                <app-tool-tip></app-tool-tip>
-            </span>
-        </a>
-        <a class="tooltip" href="#">Placement 
-            <span class="tooltiptext">
-                <app-tool-tip></app-tool-tip>
-            </span>
-        </a>
-        <a class="tooltip" href="#">About-Us 
-            <span class="tooltiptext">
-                <app-tool-tip></app-tool-tip>
-            </span>
-        </a>
-        <a class="tooltip" href="#">Contact 
-            <span class="tooltiptext">
-                <app-tool-tip></app-tool-tip>
-            </span>
-        </a>
+
+        <div class="tooltip">
+            <a  href="#">Home 
+                <div class="tooltiptext">
+                    <app-tool-tip></app-tool-tip>
+                </div>
+            </a>
+        </div>
+        
+        <div class="tooltip">
+            <a href="#">Course 
+                <span class="tooltiptext">
+                    <app-tool-tip [arr]="courses"></app-tool-tip>
+                </span>
+            </a>
+        </div>
+        
+        <div class="tooltip">
+            <a href="#">DMAD 
+                <span class="tooltiptext">
+                    <app-tool-tip></app-tool-tip>
+                </span>
+            </a>
+        </div>
+        
+        <div class="tooltip">
+            <a href="#">Schedule
+                 <span class="tooltiptext">
+                    <app-tool-tip></app-tool-tip>
+                </span>
+            </a>
+        </div>
+        
+        <div class="tooltip">
+            <a href="#">Clients 
+                <span class="tooltiptext">
+                    <app-tool-tip></app-tool-tip>
+                </span>
+            </a>
+        </div>
+        
+        <div class="tooltip">
+            <a href="#">Placement 
+                <span class="tooltiptext">
+                    <app-tool-tip></app-tool-tip>
+                </span>
+            </a>
+        </div>
+        
+        <div class="tooltip">
+            <a href="#">About-Us 
+                <span class="tooltiptext">
+                    <app-tool-tip></app-tool-tip>
+                </span>
+            </a>
+        </div>
+        
+        <div class="tooltip">
+            <a href="#">Contact 
+                <span class="tooltiptext">
+                    <app-tool-tip></app-tool-tip>
+                </span>
+            </a>
+        </div>
     </nav>
 
     <div class="menuContainer" *ngIf="!onWindowResize()">

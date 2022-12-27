@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { CoursesModel } from 'src/app/model/courses-model';
 
 @Component({
   selector: 'app-tool-tip',
@@ -7,7 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ToolTipComponent {
 
-  @Input() arr:string[]=[]
-
+  @Input() arr:CoursesModel[]=[];
 
 }
