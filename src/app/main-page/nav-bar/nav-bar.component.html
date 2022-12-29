@@ -3,7 +3,7 @@
     <div class="imageContainer"><img src="./assets/images/bitcode.png" alt="img not found"></div>
         
 
-    <nav *ngIf="onWindowResize()">
+    <nav *ngIf="turnOnOff();else elseBlock">
 
         <div class="tooltip">
             <a  href="#">Home 
@@ -70,11 +70,13 @@
         </div>
     </nav>
 
-    <div class="menuContainer" *ngIf="!onWindowResize()">
-        <a class="menuIcon" href="#">
-            <span class="material-symbols-rounded">
-                menu
-            </span>
-        </a>
-    </div>
+    <ng-template #elseBlock>
+        <div class="menuContainer">
+            <a class="menuIcon" href="#">
+                <span class="material-symbols-rounded">
+                    menu
+                </span>
+            </a>
+        </div>
+    </ng-template>
 </div>

@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div class="slider-container">
+    <div class="slider-container" *ngIf="turnOnOff()">
         <div class="slider">
             <div class="sliderCompleted" [style.width]="percentage+'%'"></div>
         </div>

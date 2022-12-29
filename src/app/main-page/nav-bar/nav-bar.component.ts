@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit} from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { CoursesModel } from 'src/app/model/courses-model';
 
 @Component({
@@ -6,7 +6,7 @@ import { CoursesModel } from 'src/app/model/courses-model';
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css']
 })
-export class NavBarComponent implements OnInit {
+export class NavBarComponent  {
   
   courses:CoursesModel[]=[
     new CoursesModel("Mobile Application Development",["Android App Development","Android Expert","iPhone App Development","iExpert"]),
@@ -18,25 +18,22 @@ export class NavBarComponent implements OnInit {
     new CoursesModel("Diploma Courses",["DMAD (Diploma in Mobile App Development)"])
   ];
   
-  public getScreenWidth:any;
+ 
+  public getScreenWidth:number=window.innerWidth;
 
-  ngOnInit():void{
+  @HostListener('window:resize',['$event'])
+  onWindowResize(){
     this.getScreenWidth=window.innerWidth;
   }
 
-  @HostListener('window:resize',['$event'])
-  onWindowResize():boolean{
-    this.getScreenWidth=window.innerWidth;
-    console.log(this.getScreenWidth);
-
-
+  turnOnOff():boolean{
     if(this.getScreenWidth>=1024){
       return true;
     }
     else{
       return false;
     }
-
   }
+  
 
 }

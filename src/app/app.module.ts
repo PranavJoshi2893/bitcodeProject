@@ -13,6 +13,7 @@ import { AdvantagePageComponent } from './main-page/info-page/advantage-page/adv
 import { ClientAndRecruitersComponent } from './main-page/info-page/client-and-recruiters/client-and-recruiters.component';
 import { CompanyInfoComponent } from './main-page/company-info/company-info.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { CompanyInfoComponent } from './main-page/company-info/company-info.comp
     CourseComponentComponent,
     AdvantagePageComponent,
     ClientAndRecruitersComponent,
-    CompanyInfoComponent
+    CompanyInfoComponent,
+    
   ],
   imports: [
     BrowserModule,
