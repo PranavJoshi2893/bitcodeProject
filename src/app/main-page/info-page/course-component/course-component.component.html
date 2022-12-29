@@ -1,6 +1,6 @@
 <div class="mainContainer">
-    <h1>Job Oriented Courses</h1>
-    <div class="cardContainer">
+    <!-- <h1>Job Oriented Courses</h1> -->
+    <div class="cardContainer" [style.left.px]="cardContainerPosition">
         <div class="courseCard">
     
         </div>
@@ -23,4 +23,16 @@
             
         </div>
     </div>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="sliderCompleted" [style.width]="percentage+'%'"></div>
+        </div>
+
+        <div class="arrow-container">
+            <span class="material-symbols-rounded arrow-behaviour" (click)="onRightClick()" [style.color]="rightButtonColor">arrow_circle_right</span>
+            <span class="material-symbols-rounded arrow-behaviour" (click)="onLeftClick()" [style.color]="leftButtonColor">arrow_circle_left</span>
+        </div>
+    </div>
+
 </div>
