@@ -7,9 +7,15 @@ import { Component, DoCheck, HostListener} from '@angular/core';
 })
 export class CourseComponentComponent implements DoCheck {
 
+
+
+  arr:string[]=["DMAD(Deploma in mobile app development)","Web Expert(Full stack web Development)","Java Expert(Full stack java development)","Android Expert(Core java,Android)","iExpert(c,c++,Swift,iOS)"];
+
+
+
   percentage:number=0;
   counter=0;
-  cardNumber:number=6;
+  cardNumber:number=3;
   devision:number=100/this.cardNumber;
 
 
@@ -28,8 +34,11 @@ export class CourseComponentComponent implements DoCheck {
     if(this.getScreenWidth>=1280){
       this.cardContainerPosition=(this.getScreenWidth-1180)/2;
     }
-    else{
+    else if(this.getScreenWidth>=1024 && this.getScreenWidth<=1279 ){
       this.cardContainerPosition=(this.getScreenWidth-1024)/2;
+    }
+    else{
+      this.cardContainerPosition=0;
     }
     
   }
@@ -57,8 +66,8 @@ export class CourseComponentComponent implements DoCheck {
     
     
     this.counter++;
-    if(this.counter>6){
-      this.counter=6;      
+    if(this.counter>3){
+      this.counter=3;      
     }
     else{
       this.cardContainerPosition-=496;

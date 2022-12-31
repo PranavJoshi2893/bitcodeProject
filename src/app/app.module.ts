@@ -12,6 +12,7 @@ import { CourseComponentComponent } from './main-page/info-page/course-component
 import { AdvantagePageComponent } from './main-page/info-page/advantage-page/advantage-page.component';
 import { ClientAndRecruitersComponent } from './main-page/info-page/client-and-recruiters/client-and-recruiters.component';
 import { CompanyInfoComponent } from './main-page/company-info/company-info.component';
+import { CourseCardComponent } from './main-page/info-page/course-component/course-card/course-card.component';
 
 
 @NgModule({
@@ -25,7 +26,7 @@ import { CompanyInfoComponent } from './main-page/company-info/company-info.comp
     AdvantagePageComponent,
     ClientAndRecruitersComponent,
     CompanyInfoComponent,
-    
+    CourseCardComponent,
   ],
   imports: [
     BrowserModule,
