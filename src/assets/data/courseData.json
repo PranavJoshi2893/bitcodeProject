@@ -1,0 +1,19 @@
+{"course" : 
+            [
+                {"courseName":"Mobile Application Development","subCourseName":["Android App Development","Android Expert","iPhone App Development","iExpert"]},
+                {"courseName":"Web Technology","subCourseName":["Web Expert","Angular 8","Angular and Node.JS","React JS and React Native ","PHP/MySQL"]},
+                {"courseName":"Programming Languages","subCourseName":["C Programming","C++ Programming","Data Structure using C, C++","Python"]},
+                {"courseName":"Java Technology","subCourseName":["Core Java","Adv. Java(Sarvlet, JSP)","Java Expert"]},
+                {"courseName":"Database Technology","subCourseName":["Big Data Hadoop"]},
+                {"courseName":"Software Testing Courses","subCourseName":["Software Testing"]},
+                {"courseName":"Diploma Courses","subCourseName":["DMAD (Diploma in Mobile App Development)"]}
+            ],
+
+ "jobOrientedCourse":
+
+            [
+                "DMAD(Deploma in mobile app development)","Web Expert(Full stack web Development)","Java Expert(Full stack java development)","Android Expert(Core java,Android)","iExpert(c,c++,Swift,iOS)"
+            ]
+}
+
+

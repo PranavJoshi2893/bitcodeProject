@@ -1,21 +1,26 @@
-import { Component, DoCheck, HostListener} from '@angular/core';
+import { Component, DoCheck, HostListener, OnInit} from '@angular/core';
+import { BitcodeService } from 'src/app/bitcode.service';
 
 @Component({
   selector: 'app-course-component',
   templateUrl: './course-component.component.html',
   styleUrls: ['./course-component.component.css']
 })
-export class CourseComponentComponent implements DoCheck {
+export class CourseComponentComponent implements DoCheck,OnInit {
 
 
 
-  arr:string[]=["DMAD(Deploma in mobile app development)","Web Expert(Full stack web Development)","Java Expert(Full stack java development)","Android Expert(Core java,Android)","iExpert(c,c++,Swift,iOS)"];
+  arr:string[]=[];
 
+  constructor(private _bitcodeService:BitcodeService){}
 
+  ngOnInit(): void {
+    this._bitcodeService.getData().subscribe(data=>{this.arr=data.jobOrientedCourse;console.log(this.arr);});
+  }
 
   percentage:number=0;
   counter=0;
-  cardNumber:number=3;
+  cardNumber:number=4;
   devision:number=100/this.cardNumber;
 
 
@@ -66,8 +71,8 @@ export class CourseComponentComponent implements DoCheck {
     
     
     this.counter++;
-    if(this.counter>3){
-      this.counter=3;      
+    if(this.counter>4){
+      this.counter=4;      
     }
     else{
       this.cardContainerPosition-=496;

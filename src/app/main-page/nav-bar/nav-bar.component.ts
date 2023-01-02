@@ -1,4 +1,5 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
+import { BitcodeService } from 'src/app/bitcode.service';
 import { CoursesModel } from 'src/app/model/courses-model';
 
 @Component({
@@ -6,19 +7,16 @@ import { CoursesModel } from 'src/app/model/courses-model';
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css']
 })
-export class NavBarComponent  {
+export class NavBarComponent implements OnInit {
   
-  courses:CoursesModel[]=[
-    new CoursesModel("Mobile Application Development",["Android App Development","Android Expert","iPhone App Development","iExpert"]),
-    new CoursesModel("Web Technology",["Web Expert","Angular 8","Angular and Node.JS","React JS and React Native ","PHP/MySQL"]),
-    new CoursesModel("Programming Languages",["C Programming","C++ Programming","Data Structure using C, C++","Python"]),
-    new CoursesModel("Java Technology",["Core Java","Adv. Java(Sarvlet, JSP)","Java Expert"]),
-    new CoursesModel("Database Technology",["Big Data Hadoop"]),
-    new CoursesModel("Software Testing Courses",["Software Testing"]),
-    new CoursesModel("Diploma Courses",["DMAD (Diploma in Mobile App Development)"])
-  ];
+  courses:CoursesModel[]=[];
   
- 
+  constructor(private _bitcodeService:BitcodeService){}
+
+  ngOnInit(): void {
+    this._bitcodeService.getData().subscribe(data=>this.courses=data.course)
+  }
+  
   public getScreenWidth:number=window.innerWidth;
 
   @HostListener('window:resize',['$event'])

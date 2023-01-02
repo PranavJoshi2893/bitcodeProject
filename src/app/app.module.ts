@@ -13,7 +13,8 @@ import { AdvantagePageComponent } from './main-page/info-page/advantage-page/adv
 import { ClientAndRecruitersComponent } from './main-page/info-page/client-and-recruiters/client-and-recruiters.component';
 import { CompanyInfoComponent } from './main-page/company-info/company-info.component';
 import { CourseCardComponent } from './main-page/info-page/course-component/course-card/course-card.component';
-
+import { BitcodeService } from './bitcode.service';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -31,9 +32,10 @@ import { CourseCardComponent } from './main-page/info-page/course-component/cour
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [BitcodeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

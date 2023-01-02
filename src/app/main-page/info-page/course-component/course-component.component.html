@@ -1,17 +1,8 @@
 <div class="mainContainer">
     <h1>Job Oriented Courses</h1>
-    <div class="cardContainer" [style.left.px]="cardContainerPosition">
-        <div class="courseCard">
-            <app-course-card [course]="arr[0]"></app-course-card>
-        </div>
-        <div class="courseCard">
-            <app-course-card [course]="arr[2]"></app-course-card>
-        </div>
-        <div class="courseCard">
-            <app-course-card [course]="arr[3]"></app-course-card>
-        </div>
-        <div class="courseCard">
-            <app-course-card [course]="arr[4]"></app-course-card>
+    <div class="cardContainer" [style.left.px]="cardContainerPosition" >
+        <div class="courseCard" *ngFor="let ele of arr">
+            <app-course-card [course]="ele"></app-course-card>
         </div>
     </div>
 
