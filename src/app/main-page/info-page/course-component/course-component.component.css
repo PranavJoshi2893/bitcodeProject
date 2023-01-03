@@ -1,7 +1,7 @@
 .mainContainer{
     width: 100vw;
-    height:min-content;
-    margin: 3px auto;
+    height:800px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -10,9 +10,7 @@
 
 .cardContainer{
     display: grid;
-    
     position: relative;
-    z-index: -1;
 }
 
 .courseCard{
@@ -41,6 +39,9 @@
     .courseCard{
         width: minmax(350px,400px);
     }
+    .mainContainer{
+        height: min-content;
+    }
 }
 
 
@@ -48,6 +49,7 @@ h1{
     font-size: 4rem;
     width: 1024px;
     margin: 0 auto;
+    font-weight: 300;
 }
 
 .slider-container{

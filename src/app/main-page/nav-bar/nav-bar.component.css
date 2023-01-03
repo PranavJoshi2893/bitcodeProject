@@ -28,6 +28,7 @@ a{
     height: 70px;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .tooltip{
@@ -50,9 +51,8 @@ a{
         height: 390px;
         background-color: white;
         color: rgba(0, 0, 0, 0.7);
-        border-radius: 10px;
         padding: 5px 0;
-        box-shadow: 0px 1px 20px gray;
+        box-shadow: 0px 1px 3px gray;
   
         /* Position the tooltip */
 
