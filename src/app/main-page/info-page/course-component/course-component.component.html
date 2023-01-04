@@ -1,14 +1,14 @@
 <div class="mainContainer">
     <h1>Job Oriented Courses</h1>
-    <div class="cardContainer" [style.left.px]="cardContainerPosition" >
+    <div class="cardContainer" [ngStyle]="{'left':''+ cardContainerPosition +'%'}" >
         <div class="courseCard" *ngFor="let ele of arr">
             <app-course-card [course]="ele"></app-course-card>
         </div>
     </div>
 
-    <div class="slider-container" *ngIf="turnOnOff()">
+    <div class="slider-container">
         <div class="slider">
-            <div class="sliderCompleted" [style.width]="percentage+'%'"></div>
+            <div class="sliderCompleted" [ngStyle]="{'width':''+ percentage +'%'}"></div>
         </div>
 
         <div class="arrow-container">
@@ -18,3 +18,6 @@
     </div>
 
 </div>
+
+
+<!-- *ngIf="turnOnOff()" -->
