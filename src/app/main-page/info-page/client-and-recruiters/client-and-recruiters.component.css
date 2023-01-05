@@ -1,30 +1,45 @@
 .mainContainer{
-    width: 1024px;
-    margin: 3px auto;
+    width: min-content;
+    height: min-content;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
 }
-
 h1{
     font-size: 4rem;
 }
 .cardHolder{
-    display: grid;
-    grid-template-columns: repeat(7,100px);
-    height: 1000px;
-    gap: 2%;
+    display: flex;
+    justify-content: space-between;
 }
 .commonProperties{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 4%;
 }
-.card{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    box-shadow: 0px 2px 20px grey;
+.card_type1{
+    width: 10vmax;
+    height: 10vmax;
+    box-shadow: 0px 4px 5px rgba(128, 128, 128, 0.6);
+    margin: 1vmax;
+}
+.card_type2{
+    width: 15vmax;
+    height: 15vmax;
+    box-shadow: 0px 4px 5px rgba(128, 128, 128, 0.6);
+    margin: 1vmax;
+}
+.set1{
+    margin-top: 5vmax;
+}
+.set3{
+    margin-top: 7.5vmax;
+}
+.set4{
+    margin-top: 2.5vmax;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
