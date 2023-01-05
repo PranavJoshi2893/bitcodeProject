@@ -1,6 +1,6 @@
 .mainContainer{
     width: 100%;
-    height:50vmax;
+    height:min-content;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
     margin: 18px;
     display: grid;
     position: relative;
-    grid-template-columns: repeat(7, 25vmax);
+    grid-template-columns: repeat(7, 490px);
     gap: 4vmax;
     transition: all ease-in-out 0.5s;
 }
@@ -20,7 +20,7 @@
 .courseCard{
     border-radius: 25px;
     box-shadow: 20px 10px 50px grey;
-    height: 30vmax;
+    height: 600px;
 }
 .courseCard:hover{
     box-shadow: 10px 10px 10px grey;
@@ -35,8 +35,8 @@
     height: 0%;
 }
 .courseCard:hover::before{
-    width: 25vmax;
-    height: 30vmax;
+    width: 490px;
+    height: 600px;
     transition: 0.5s;
 }
 

@@ -10,3 +10,8 @@
     font-family:'Roboto', sans-serif;
     font-size: 15px;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}

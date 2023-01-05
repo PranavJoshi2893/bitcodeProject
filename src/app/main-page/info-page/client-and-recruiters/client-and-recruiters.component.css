@@ -18,25 +18,25 @@ h1{
     flex-direction: column;
 }
 .card_type1{
-    width: 10vmax;
-    height: 10vmax;
+    width: 150px;
+    height: 150px;
     box-shadow: 0px 4px 5px rgba(128, 128, 128, 0.6);
-    margin: 1vmax;
+    margin: 10px;
 }
 .card_type2{
-    width: 15vmax;
-    height: 15vmax;
+    width: 350px;
+    height: 350px;
     box-shadow: 0px 4px 5px rgba(128, 128, 128, 0.6);
-    margin: 1vmax;
+    margin: 10px;
 }
 .set1{
-    margin-top: 5vmax;
+    margin-top: 75px;
 }
 .set3{
-    margin-top: 7.5vmax;
+    margin-top: 100px;
 }
 .set4{
-    margin-top: 2.5vmax;
+    margin-top: 50px;
 }
 img{
     width: 100%;
