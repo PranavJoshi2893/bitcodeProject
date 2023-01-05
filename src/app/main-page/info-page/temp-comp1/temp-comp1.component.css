@@ -1,0 +1,31 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1024px;
+    height: 800px;
+}
+img{
+    width: 400px;
+    object-fit: cover;
+}
+h1{
+    font-size: 4rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info{
+    width: 80%;
+}
+.item1{
+    font-size:larger;
+    font-weight: bold;
+}
+.item2{
+    font-size: large;
+}

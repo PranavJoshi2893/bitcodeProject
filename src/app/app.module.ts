@@ -14,7 +14,8 @@ import { ClientAndRecruitersComponent } from './main-page/info-page/client-and-r
 import { CompanyInfoComponent } from './main-page/company-info/company-info.component';
 import { CourseCardComponent } from './main-page/info-page/course-component/course-card/course-card.component';
 import { BitcodeService } from './bitcode.service';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { TempComp1Component } from './main-page/info-page/temp-comp1/temp-comp1.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {HttpClientModule} from '@angular/common/http'
     ClientAndRecruitersComponent,
     CompanyInfoComponent,
     CourseCardComponent,
+    TempComp1Component,
   ],
   imports: [
     BrowserModule,
