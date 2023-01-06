@@ -26,12 +26,20 @@ img{
     height: 100%;
     object-fit: cover;
 }
-button{
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     width: 125px;
     border-radius: 25px;
     border: none;
+    background-color:#073042;
+    color: #ffffff;
 }
-button:hover{
+a:hover{
     cursor: pointer;
+    background-color: #3ddc84;
+    color: #000000;
+    transition:ease 0.1s; 
 }
