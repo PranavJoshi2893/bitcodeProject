@@ -1,0 +1,18 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+}
+main{
+    width: 100vw;
+    position: relative;
+    top: 70px;
+    left: 0;
+}
+footer{
+    position: relative;
+    width: 100vw;
+    top: 70px;
+}
