@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CoursesModel } from 'src/app/model/courses-model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tool-tip',
@@ -8,6 +8,11 @@ import { CoursesModel } from 'src/app/model/courses-model';
 })
 export class ToolTipComponent {
 
-  @Input() arr:CoursesModel[]=[];
+  @Input() arr:any[]=[];
 
+  constructor(private _router:Router){}
+
+  onSelect(ele:any,subEle:any){
+    this._router.navigate(["/courses",ele,subEle])
+  }
 }

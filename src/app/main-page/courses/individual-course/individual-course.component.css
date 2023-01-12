@@ -1,0 +1,19 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1280px;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+}
+.courseName{
+    width: 60%;
+}
+.courseName>h1{
+    font-size: 3rem;
+}
+.courseDescription{
+    width: 40%;
+}
+.courseDescription>p{
+    font-size: 1.5rem;
+}

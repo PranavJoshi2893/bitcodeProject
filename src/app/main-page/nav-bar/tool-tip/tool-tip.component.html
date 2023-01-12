@@ -2,8 +2,8 @@
     <ul class="courses">
         <li *ngFor="let ele of arr" >
             <span>{{ele.courseName}}</span>
-            <ul *ngFor="let subEle of ele.subCourseName" class="courseElement">
-                <li>{{subEle}}</li>
+            <ul *ngFor="let subEle of ele.subCourse" class="courseElement" >
+                <li (click)="onSelect(ele.courseId,subEle.subCourseId)">{{subEle.subCourseName}}</li>
             </ul>
         </li>
     </ul>

@@ -6,11 +6,11 @@
     <nav *ngIf="turnOnOff();else elseBlock">
 
         <div class="tooltip">
-            <a  href="#">Home</a>
+            <a  routerLink="/home">Home</a>
         </div>
         
         <div class="tooltip">
-            <a href="#">Course 
+            <a>Course 
                 <span class="tooltiptext">
                     <app-tool-tip [arr]="courses"></app-tool-tip>
                 </span>
@@ -18,7 +18,7 @@
         </div>
         
         <div class="tooltip">
-            <a href="#">DMAD 
+            <a routerLink="#">DMAD 
                 <span class="tooltiptext">
                     <app-tool-tip></app-tool-tip>
                 </span>
@@ -26,23 +26,23 @@
         </div>
         
         <div class="tooltip">
-            <a href="#">Schedule</a>
+            <a routerLink="#">Schedule</a>
         </div>
         
         <div class="tooltip">
-            <a href="#">Clients</a>
+            <a routerLink="#">Clients</a>
         </div>
         
         <div class="tooltip">
-            <a href="#">Placement</a>
+            <a routerLink="#">Placement</a>
         </div>
         
         <div class="tooltip">
-            <a href="#">About-Us</a>
+            <a routerLink="#">About-Us</a>
         </div>
         
         <div class="tooltip">
-            <a href="#">Contact</a>
+            <a routerLink="#">Contact</a>
         </div>
     </nav>
 

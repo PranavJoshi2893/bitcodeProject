@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { BitcodeService } from 'src/app/bitcode.service';
-import { CoursesModel } from 'src/app/model/courses-model';
 
 @Component({
   selector: 'app-nav-bar',
@@ -9,12 +9,13 @@ import { CoursesModel } from 'src/app/model/courses-model';
 })
 export class NavBarComponent implements OnInit {
   
-  courses:CoursesModel[]=[];
-  
+  courses:any[]=[];
   constructor(private _bitcodeService:BitcodeService){}
 
   ngOnInit(): void {
-    this._bitcodeService.getData().subscribe(data=>this.courses=data.course)
+    this._bitcodeService.getData().subscribe(data=>{
+        this.courses=data.course;
+      })
   }
   
   public getScreenWidth:number=window.innerWidth;
@@ -32,6 +33,8 @@ export class NavBarComponent implements OnInit {
       return false;
     }
   }
-  
 
+  courseIndex:number=0;
+  subCourseIndex:number=0;
+  
 }

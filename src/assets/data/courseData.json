@@ -1,12 +1,157 @@
 {"course" : 
             [
-                {"courseName":"Mobile Application Development","subCourseName":["Android App Development","Android Expert","iPhone App Development","iExpert"]},
-                {"courseName":"Web Technology","subCourseName":["Web Expert","Angular 8","Angular and Node.JS","React JS and React Native ","PHP/MySQL"]},
-                {"courseName":"Programming Languages","subCourseName":["C Programming","C++ Programming","Data Structure using C, C++","Python"]},
-                {"courseName":"Java Technology","subCourseName":["Core Java","Adv. Java(Sarvlet, JSP)","Java Expert"]},
-                {"courseName":"Database Technology","subCourseName":["Big Data Hadoop"]},
-                {"courseName":"Software Testing Courses","subCourseName":["Software Testing"]},
-                {"courseName":"Diploma Courses","subCourseName":["DMAD (Diploma in Mobile App Development)"]}
+                {
+                    "courseId":1,
+                    "courseName":"Mobile Application Development",
+                    "subCourse":
+                    [
+                        {
+                            "subCourseId":1,
+                            "subCourseName":"Android App Development",
+                            "subCourseDetails":"Become a professional Android App Developer. This course will help you develop Android Programming skills, and start career in Android.As part of the course, you will learn Android architecture, user interfaces, activities, controls, layouts, services, content providers, multimedia APIs, maps, web serices and lot more. You’ll gain practical development experience by working on live project during the Android app development course. Learn Android today, and secure a great job and fast moving career! "
+                        },
+                        
+                        {
+                            "subCourseId":2,
+                            "subCourseName":"Android Expert",
+                            "subCourseDetails":"Become a professional Android App Developer. This course will help you develop Android Programming skills, and start career in Android.As part of the course, you will learn Android architecture, user interfaces, activities, controls, layouts, services, content providers, multimedia APIs, maps, web serices and lot more. You’ll gain practical development experience by working on live project during the Android app development course. Learn Android today, and secure a great job and fast moving career!"
+                        },
+                        
+                        {
+                            "subCourseId":3,
+                            "subCourseName":"iPhone App Development",
+                            "subCourseDetails":"Learn iOS app development and start a great career in Mobile App Development. This iOS course will cover the iOS 10 platform using swift 3 programming language, including user interfaces, input restrictions, notifications, messaging, web services and core data. You will also be getting chance to work on live project and experience the complete iOS app development process till the deployment on Apple App Store. "
+                        },
+                        
+                        {
+                            "subCourseId":4,
+                            "subCourseName":"iExpert",
+                            "subCourseDetails":"Learn iOS app development and start a great career in Mobile App Development. The iExpert course will start with C, C++ which are the prerequisites for iOS App Development. This iOS course will cover the iOS 10 platform using swift 3 programming language, including user interfaces, input restrictions, notifications, messaging, web services and core data. You will also be getting chance to work on live project and experience the complete iOS app development process till the deployment on Apple App Store. "
+                        }
+                    ]
+                },
+
+                {
+                    "courseId":2,
+                    "courseName":"Web Technology",
+                    "subCourse":
+                    [
+                        {
+                            "subCourseId":1,
+                            "subCourseName":"Web Expert",
+                            "subCourseDetails":"The Web Expert course is the best course for freshers as well as working professional to develop skills needed for Web Development. The course covers basics like HTML, Java Script and advances to HTML5, CSS3, Bootstrap, JQuery, PHP/MySQL. The course will also cover Angular7 and Node.JS in depth. With our expert experienced faculty you will get to understand each every topic in dpeth. You will also work on live projects based mainly on Angular7 and Node.JS. BitCode has the best placement in Web. With a consitent placement track record of 90% placement BitCode is leader in Web Development training in Pune. "
+                        },
+                        {
+                            "subCourseId":2,
+                            "subCourseName":"Angular 8",
+                            "subCourseDetails":"Angular is in great demand. It has became must to have skill as a fron end web developer. The course will cover Angular8 concepts in depth. With our expert experienced faculty you will get to understand each every concept practically. You will also work on live projects based on Angular8.BitCode has the best placement in Angular for freshers. With a consitent placement track record of 90% placement BitCode is leader in Web Development training and placement in Pune."
+                        },
+                        {
+                            "subCourseId":3,
+                            "subCourseName":"Angular and Node.JS",
+                            "subCourseDetails":"Angular and Node is in great demand. It has became must to have skills as a web developer. The course will cover Angular7 and Node.JS in depth. With our expert experienced faculty you will get to understand each every concept in dpeth. You will also work on live projects based on Angular7 and Node.JS.BitCode has the best placement in Angular and Node. With a consitent placement track record of 90% placement BitCode is leader in Web Development training in Pune."
+                        },
+                        {
+                            "subCourseId":4,
+                            "subCourseName":"React JS and React Native",
+                            "subCourseDetails":"React is one of the most popular JS library from Facebook. The React JS and React Native course will cover all the aspects of React JS and cross platform app development with React Native in depth. You will be learning from experienced trainer and will get chance to work on live projects. You will also be getting placement with our 400+ recruiters. "
+                        },
+                        {
+                            "subCourseId":5,
+                            "subCourseName":"PHP/MySQL",
+                            "subCourseDetails":""
+                        }
+                    ]
+                },
+
+                {
+                    "courseId":3,
+                    "courseName":"Programming Languages",
+                    "subCourse":
+                    [
+                        {
+                            "subCourseId":1,
+                            "subCourseName":"C Programming",
+                            "subCourseDetails":"C Programming is the right course to start with if you are new to programming. This course will create a strong base to jump to Object Oriented technologies. Through this course, you will be learning Algorithms and it's implementation, you will also learn topics like Arrays, Structures, Pointers and many more in depth. You will writing a lot of assignments to build concrete programming skills. "
+                        },
+                        {
+                            "subCourseId":2,
+                            "subCourseName":"C++ Programming",
+                            "subCourseDetails":"The Cpp programming course will cover Object Oriented Principles in depth with real time implementation. The course will cover new features introduced in CPP like references, inline functions, const and many more. It will then take you through the details of Class, Constructor, Inheritance, Polymorphism, Templates, STL, Exception Handling and many more important concepts This course will lay string foundation of Object Oriented Programming and it's usage in real time systems."
+                        },
+                        {
+                            "subCourseId":3,
+                            "subCourseName":"Data Structure using C, C++",
+                            "subCourseDetails":"Data structures are much needed skills to start a great career, it is the most important part of any system. It is always a big advantage to have knowledge of Data Structures and it's implementation. This course will help you understand and implement data structures like Linked Lists, Stacks, Queues, Trees, Graphs and many more. The course will also cover serching and sorting algorithms, finding time and space complexities."
+                        },
+                        {
+                            "subCourseId":4,
+                            "subCourseName":"Python",
+                            "subCourseDetails":"Python is in demand, be it Web, AI or ML Python is the preferred programming language throughout the industry. This Python programming course will take you through all the details and aspects of Python. You will be learning Python from the industry experts having more than 12 years of experience in IT. BitCode will also provide you placement with our recruiters once the course is completed."
+                        }
+                    ]
+                },
+                
+                {
+                    "courseId":4,
+                    "courseName":"Java Technology",
+                    "subCourse":
+                    [
+                        {
+                            "subCourseId":1,
+                            "subCourseName":"Core Java",
+                            "subCourseDetails":"Java is one of the most popular programming language and preferred platform by a huge community of developers around the globe. This Core Java course will take you through OOPs concepts and it's implementation. The course will also cover topics like Multithreading, I/O, Generics, Collections, Networking, JDBC, RMI and many more. The well designed course contents and sessions conducted by experienced facutly will make sure that you are a prefessional Java Programmer at the end of the course. "
+                        },
+                        {
+                            "subCourseId":2,
+                            "subCourseName":"Adv. Java(Sarvlet, JSP)",
+                            "subCourseDetails":"The Advance Java course cover the Java Server Side components like Servlets and JSP. The course will also cover JDBC, REST APIs and RMI. At the end of the Advance Java course you will be a professional Java Server Side Programmer.You will also be getting chance to work on live projects as part of the course. This course will also help you get placement as Java Developer with our recruiters. "
+                        },
+                        {
+                            "subCourseId":3,
+                            "subCourseName":"Java Expert",
+                            "subCourseDetails":"The Java Expert course will turn you into a full stack java developer. This course will start from basics of Java and will advance to next level modules like Servlets, JDBC, JSP, RMI, and enterprise modules like Spring, Spring MVC, Struts2 and REST APIs. You will be working on live projects as part of this course and will also be getting placements with our 400+ recruiters. "
+                        }
+                    ]
+                },
+                {
+                    "courseId":5,
+                    "courseName":"Database Technology",
+                    "subCourse":
+                    [
+                        {
+                            "subCourseId":1,
+                            "subCourseName":"Big Data Hadoop",
+                            "subCourseDetails":""
+                        }
+                    ]
+                },
+
+                {
+                    "courseId":6,
+                    "courseName":"Software Testing Courses",
+                    "subCourse":
+                    [
+                        {
+                            "subCourseId":1,
+                            "subCourseName":"Software Testing",
+                            "subCourseDetails":"Software Testing is always in demand and growing consistently. Even for freshers this is one of the best field to get started and secure not only a job but a great career. This course will cover all the aspects of software testing in depth. You will be learning Manual Testing, different automation testing tools like Selenium, Mantis, JMeter and many more. You will also get chance to work on live projects.BitCode has the best placement in software testing in Pune. "
+                        }
+                    ]
+                },
+
+                {
+                    "courseId":7,
+                    "courseName":"Diploma Courses",
+                    "subCourse":
+                    [
+                        {
+                            "subCourseId":1,
+                            "subCourseName":"DMAD (Diploma in Mobile App Development)",
+                            "subCourseDetails":"Become a Full Stack Mobile App Developer! Build a Great Career in App Development. This course provides an excellent platform to freshers to learn Android and iOS App Development (Native and Cross Platform) starting from basics to advanced level and secure a job. With more than 400+ recruiters aboard and avg. sal of 2.4 lacs/anum, We have 100% placement track for this course. "
+                        }
+                    ]
+                }
             ],
 
  "jobOrientedCourse":

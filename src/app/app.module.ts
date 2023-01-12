@@ -8,13 +8,15 @@ import { NavBarComponent } from './main-page/nav-bar/nav-bar.component';
 import { ToolTipComponent } from './main-page/nav-bar/tool-tip/tool-tip.component';
 import { InfoPageComponent } from './main-page/info-page/info-page.component';
 import { CourseComponentComponent } from './main-page/info-page/course-component/course-component.component';
-import { AdvantagePageComponent } from './main-page/info-page/advantage-page/advantage-page.component';
 import { ClientAndRecruitersComponent } from './main-page/info-page/client-and-recruiters/client-and-recruiters.component';
 import { CompanyInfoComponent } from './main-page/company-info/company-info.component';
 import { CourseCardComponent } from './main-page/info-page/course-component/course-card/course-card.component';
 import { BitcodeService } from './bitcode.service';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { TempComp1Component } from './main-page/info-page/temp-comp1/temp-comp1.component';
+import { CoursesComponent } from './main-page/courses/courses.component';
+import { PageNotFoundComponent } from './main-page/page-not-found/page-not-found.component';
+import { IndividualCourseComponent } from './main-page/courses/individual-course/individual-course.component';
 
 @NgModule({
   declarations: [
@@ -23,11 +25,13 @@ import { TempComp1Component } from './main-page/info-page/temp-comp1/temp-comp1.
     ToolTipComponent,
     InfoPageComponent,
     CourseComponentComponent,
-    AdvantagePageComponent,
     ClientAndRecruitersComponent,
     CompanyInfoComponent,
     CourseCardComponent,
     TempComp1Component,
+    CoursesComponent,
+    PageNotFoundComponent,
+    IndividualCourseComponent
   ],
   imports: [
     BrowserModule,

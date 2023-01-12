@@ -13,4 +13,5 @@ export class BitcodeService {
   getData():Observable<any>{
     return this._http.get<any>(this._url);
   }
+  
 }
