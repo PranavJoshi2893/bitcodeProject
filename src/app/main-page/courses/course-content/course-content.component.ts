@@ -22,7 +22,8 @@ export class CourseContentComponent implements OnInit{
 
 
       this._bitcodeService.getData().subscribe(data=>{
-        this.courseDetail=data.courseContent;
+        this.courseDetail=data.course[this.courseId-1].subCourse[this.subCourseId-1].courseContent;
+        console.log(this.courseDetail);
       });
 
     })    

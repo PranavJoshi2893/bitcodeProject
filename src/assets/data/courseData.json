@@ -307,13 +307,33 @@
                         {
                             "subCourseId":3,
                             "subCourseName":"iPhone App Development",
-                            "subCourseDetails":"Learn iOS app development and start a great career in Mobile App Development. This iOS course will cover the iOS 10 platform using swift 3 programming language, including user interfaces, input restrictions, notifications, messaging, web services and core data. You will also be getting chance to work on live project and experience the complete iOS app development process till the deployment on Apple App Store. "
+                            "subCourseDetails":"Learn iOS app development and start a great career in Mobile App Development. This iOS course will cover the iOS 10 platform using swift 3 programming language, including user interfaces, input restrictions, notifications, messaging, web services and core data. You will also be getting chance to work on live project and experience the complete iOS app development process till the deployment on Apple App Store. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         
                         {
                             "subCourseId":4,
                             "subCourseName":"iExpert",
-                            "subCourseDetails":"Learn iOS app development and start a great career in Mobile App Development. The iExpert course will start with C, C++ which are the prerequisites for iOS App Development. This iOS course will cover the iOS 10 platform using swift 3 programming language, including user interfaces, input restrictions, notifications, messaging, web services and core data. You will also be getting chance to work on live project and experience the complete iOS app development process till the deployment on Apple App Store. "
+                            "subCourseDetails":"Learn iOS app development and start a great career in Mobile App Development. The iExpert course will start with C, C++ which are the prerequisites for iOS App Development. This iOS course will cover the iOS 10 platform using swift 3 programming language, including user interfaces, input restrictions, notifications, messaging, web services and core data. You will also be getting chance to work on live project and experience the complete iOS app development process till the deployment on Apple App Store. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         }
                     ]
                 },
@@ -326,27 +346,77 @@
                         {
                             "subCourseId":1,
                             "subCourseName":"Web Expert",
-                            "subCourseDetails":"The Web Expert course is the best course for freshers as well as working professional to develop skills needed for Web Development. The course covers basics like HTML, Java Script and advances to HTML5, CSS3, Bootstrap, JQuery, PHP/MySQL. The course will also cover Angular7 and Node.JS in depth. With our expert experienced faculty you will get to understand each every topic in dpeth. You will also work on live projects based mainly on Angular7 and Node.JS. BitCode has the best placement in Web. With a consitent placement track record of 90% placement BitCode is leader in Web Development training in Pune. "
+                            "subCourseDetails":"The Web Expert course is the best course for freshers as well as working professional to develop skills needed for Web Development. The course covers basics like HTML, Java Script and advances to HTML5, CSS3, Bootstrap, JQuery, PHP/MySQL. The course will also cover Angular7 and Node.JS in depth. With our expert experienced faculty you will get to understand each every topic in dpeth. You will also work on live projects based mainly on Angular7 and Node.JS. BitCode has the best placement in Web. With a consitent placement track record of 90% placement BitCode is leader in Web Development training in Pune. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":2,
                             "subCourseName":"Angular 8",
-                            "subCourseDetails":"Angular is in great demand. It has became must to have skill as a fron end web developer. The course will cover Angular8 concepts in depth. With our expert experienced faculty you will get to understand each every concept practically. You will also work on live projects based on Angular8.BitCode has the best placement in Angular for freshers. With a consitent placement track record of 90% placement BitCode is leader in Web Development training and placement in Pune."
+                            "subCourseDetails":"Angular is in great demand. It has became must to have skill as a fron end web developer. The course will cover Angular8 concepts in depth. With our expert experienced faculty you will get to understand each every concept practically. You will also work on live projects based on Angular8.BitCode has the best placement in Angular for freshers. With a consitent placement track record of 90% placement BitCode is leader in Web Development training and placement in Pune.",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":3,
                             "subCourseName":"Angular and Node.JS",
-                            "subCourseDetails":"Angular and Node is in great demand. It has became must to have skills as a web developer. The course will cover Angular7 and Node.JS in depth. With our expert experienced faculty you will get to understand each every concept in dpeth. You will also work on live projects based on Angular7 and Node.JS.BitCode has the best placement in Angular and Node. With a consitent placement track record of 90% placement BitCode is leader in Web Development training in Pune."
+                            "subCourseDetails":"Angular and Node is in great demand. It has became must to have skills as a web developer. The course will cover Angular7 and Node.JS in depth. With our expert experienced faculty you will get to understand each every concept in dpeth. You will also work on live projects based on Angular7 and Node.JS.BitCode has the best placement in Angular and Node. With a consitent placement track record of 90% placement BitCode is leader in Web Development training in Pune.",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":4,
                             "subCourseName":"React JS and React Native",
-                            "subCourseDetails":"React is one of the most popular JS library from Facebook. The React JS and React Native course will cover all the aspects of React JS and cross platform app development with React Native in depth. You will be learning from experienced trainer and will get chance to work on live projects. You will also be getting placement with our 400+ recruiters. "
+                            "subCourseDetails":"React is one of the most popular JS library from Facebook. The React JS and React Native course will cover all the aspects of React JS and cross platform app development with React Native in depth. You will be learning from experienced trainer and will get chance to work on live projects. You will also be getting placement with our 400+ recruiters. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":5,
                             "subCourseName":"PHP/MySQL",
-                            "subCourseDetails":""
+                            "subCourseDetails":"",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         }
                     ]
                 },
@@ -359,22 +429,62 @@
                         {
                             "subCourseId":1,
                             "subCourseName":"C Programming",
-                            "subCourseDetails":"C Programming is the right course to start with if you are new to programming. This course will create a strong base to jump to Object Oriented technologies. Through this course, you will be learning Algorithms and it's implementation, you will also learn topics like Arrays, Structures, Pointers and many more in depth. You will writing a lot of assignments to build concrete programming skills. "
+                            "subCourseDetails":"C Programming is the right course to start with if you are new to programming. This course will create a strong base to jump to Object Oriented technologies. Through this course, you will be learning Algorithms and it's implementation, you will also learn topics like Arrays, Structures, Pointers and many more in depth. You will writing a lot of assignments to build concrete programming skills. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":2,
                             "subCourseName":"C++ Programming",
-                            "subCourseDetails":"The Cpp programming course will cover Object Oriented Principles in depth with real time implementation. The course will cover new features introduced in CPP like references, inline functions, const and many more. It will then take you through the details of Class, Constructor, Inheritance, Polymorphism, Templates, STL, Exception Handling and many more important concepts This course will lay string foundation of Object Oriented Programming and it's usage in real time systems."
+                            "subCourseDetails":"The Cpp programming course will cover Object Oriented Principles in depth with real time implementation. The course will cover new features introduced in CPP like references, inline functions, const and many more. It will then take you through the details of Class, Constructor, Inheritance, Polymorphism, Templates, STL, Exception Handling and many more important concepts This course will lay string foundation of Object Oriented Programming and it's usage in real time systems.",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":3,
                             "subCourseName":"Data Structure using C, C++",
-                            "subCourseDetails":"Data structures are much needed skills to start a great career, it is the most important part of any system. It is always a big advantage to have knowledge of Data Structures and it's implementation. This course will help you understand and implement data structures like Linked Lists, Stacks, Queues, Trees, Graphs and many more. The course will also cover serching and sorting algorithms, finding time and space complexities."
+                            "subCourseDetails":"Data structures are much needed skills to start a great career, it is the most important part of any system. It is always a big advantage to have knowledge of Data Structures and it's implementation. This course will help you understand and implement data structures like Linked Lists, Stacks, Queues, Trees, Graphs and many more. The course will also cover serching and sorting algorithms, finding time and space complexities.",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":4,
                             "subCourseName":"Python",
-                            "subCourseDetails":"Python is in demand, be it Web, AI or ML Python is the preferred programming language throughout the industry. This Python programming course will take you through all the details and aspects of Python. You will be learning Python from the industry experts having more than 12 years of experience in IT. BitCode will also provide you placement with our recruiters once the course is completed."
+                            "subCourseDetails":"Python is in demand, be it Web, AI or ML Python is the preferred programming language throughout the industry. This Python programming course will take you through all the details and aspects of Python. You will be learning Python from the industry experts having more than 12 years of experience in IT. BitCode will also provide you placement with our recruiters once the course is completed.",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         }
                     ]
                 },
@@ -387,17 +497,47 @@
                         {
                             "subCourseId":1,
                             "subCourseName":"Core Java",
-                            "subCourseDetails":"Java is one of the most popular programming language and preferred platform by a huge community of developers around the globe. This Core Java course will take you through OOPs concepts and it's implementation. The course will also cover topics like Multithreading, I/O, Generics, Collections, Networking, JDBC, RMI and many more. The well designed course contents and sessions conducted by experienced facutly will make sure that you are a prefessional Java Programmer at the end of the course. "
+                            "subCourseDetails":"Java is one of the most popular programming language and preferred platform by a huge community of developers around the globe. This Core Java course will take you through OOPs concepts and it's implementation. The course will also cover topics like Multithreading, I/O, Generics, Collections, Networking, JDBC, RMI and many more. The well designed course contents and sessions conducted by experienced facutly will make sure that you are a prefessional Java Programmer at the end of the course. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":2,
                             "subCourseName":"Adv. Java(Sarvlet, JSP)",
-                            "subCourseDetails":"The Advance Java course cover the Java Server Side components like Servlets and JSP. The course will also cover JDBC, REST APIs and RMI. At the end of the Advance Java course you will be a professional Java Server Side Programmer.You will also be getting chance to work on live projects as part of the course. This course will also help you get placement as Java Developer with our recruiters. "
+                            "subCourseDetails":"The Advance Java course cover the Java Server Side components like Servlets and JSP. The course will also cover JDBC, REST APIs and RMI. At the end of the Advance Java course you will be a professional Java Server Side Programmer.You will also be getting chance to work on live projects as part of the course. This course will also help you get placement as Java Developer with our recruiters. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         {
                             "subCourseId":3,
                             "subCourseName":"Java Expert",
-                            "subCourseDetails":"The Java Expert course will turn you into a full stack java developer. This course will start from basics of Java and will advance to next level modules like Servlets, JDBC, JSP, RMI, and enterprise modules like Spring, Spring MVC, Struts2 and REST APIs. You will be working on live projects as part of this course and will also be getting placements with our 400+ recruiters. "
+                            "subCourseDetails":"The Java Expert course will turn you into a full stack java developer. This course will start from basics of Java and will advance to next level modules like Servlets, JDBC, JSP, RMI, and enterprise modules like Spring, Spring MVC, Struts2 and REST APIs. You will be working on live projects as part of this course and will also be getting placements with our 400+ recruiters. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         }
                     ]
                 },
@@ -409,7 +549,60 @@
                         {
                             "subCourseId":1,
                             "subCourseName":"Big Data Hadoop",
-                            "subCourseDetails":""
+                            "subCourseDetails":"",
+                            "courseContent":[
+                                {
+                                    "content":"Introduction to HADOOP and HDFS (Hadoop Distributed File System)",
+                                    "subContent":[
+                                        {"subContentName":"Design of HDFS","additionalSubContent":[]},
+                                        {"subContentName":"Concepts","additionalSubContent":[]},
+                                        {"subContentName":"Line Interface","additionalSubContent":[]},
+                                        {"subContentName":"Hadoop File Systems","additionalSubContent":[]},
+                                        {"subContentName":"Java Interface","additionalSubContent":[]},
+                                        {"subContentName":"Flow","additionalSubContent":["Anatomy of a File Read","Anatomy of a File Write","Coherency Model"]},
+                                        {"subContentName":"Parallel Copying with DISTCP","additionalSubContent":[]},
+                                        {"subContentName":"Hadoop Archives","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Understanding Pseudo Cluster Environment",
+                                    "subContent":[
+                                        {"subContentName":"Cluster Specification","additionalSubContent":[]},
+                                        {"subContentName":"Hadoop Configuration ","additionalSubContent":["Configuration Management","Settings","Important Hadoop Daemon Properties","Hadoop Daemon Addresses and Ports","Other Hadoop Properties"]},
+                                        {"subContentName":"Basic Linux and HDFS commands","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Understanding - Map-Reduce Basics and Map-Reduce Types and Formats",
+                                    "subContent":[
+                                        {"subContentName":"Hadoop Data Types","additionalSubContent":[]},
+                                        {"subContentName":"Functional - Concept of Mappers ","additionalSubContent":[]},
+                                        {"subContentName":"Functional - Concept of Reducers","additionalSubContent":[]},
+                                        {"subContentName":"The Execution Framework","additionalSubContent":[]},
+                                        {"subContentName":"Concept of Partitioners","additionalSubContent":[]},
+                                        {"subContentName":"Functional - Concept of Combiners","additionalSubContent":[]},
+                                        {"subContentName":"Distributed File System","additionalSubContent":[]},
+                                        {"subContentName":"Cluster Architecture","additionalSubContent":[]},
+                                        {"subContentName":"MapReduce Types","additionalSubContent":[]},
+                                        {"subContentName":"Input Formats ","additionalSubContent":["Input Splits and Records","Text Input","Binary Input","Multiple Inputs"]},
+                                        {"subContentName":"OutPut Formats  ","additionalSubContent":["TextOutput"," BinaryOutPut","Multiple Output"]}
+                                    ]
+                                },
+                                {
+                                    "content":"PIG+Impala",
+                                    "subContent":[
+                                        {"subContentName":"Installing and Running Pig","additionalSubContent":[]},
+                                        {"subContentName":"Grunt","additionalSubContent":[]},
+                                        {"subContentName":"Pig's Data Model","additionalSubContent":[]},
+                                        {"subContentName":"Pig Latin","additionalSubContent":[]},
+                                        {"subContentName":"Developing & Testing Pig Latin Scripts","additionalSubContent":[]},
+                                        {"subContentName":"Writing Evaluation","additionalSubContent":[]},
+                                        {"subContentName":"Filter","additionalSubContent":[]},
+                                        {"subContentName":"Load & Store Functions","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         }
                     ]
                 },
@@ -422,7 +615,17 @@
                         {
                             "subCourseId":1,
                             "subCourseName":"Software Testing",
-                            "subCourseDetails":"Software Testing is always in demand and growing consistently. Even for freshers this is one of the best field to get started and secure not only a job but a great career. This course will cover all the aspects of software testing in depth. You will be learning Manual Testing, different automation testing tools like Selenium, Mantis, JMeter and many more. You will also get chance to work on live projects.BitCode has the best placement in software testing in Pune. "
+                            "subCourseDetails":"Software Testing is always in demand and growing consistently. Even for freshers this is one of the best field to get started and secure not only a job but a great career. This course will cover all the aspects of software testing in depth. You will be learning Manual Testing, different automation testing tools like Selenium, Mantis, JMeter and many more. You will also get chance to work on live projects.BitCode has the best placement in software testing in Pune. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         }
                     ]
                 },
@@ -435,7 +638,17 @@
                         {
                             "subCourseId":1,
                             "subCourseName":"DMAD (Diploma in Mobile App Development)",
-                            "subCourseDetails":"Become a Full Stack Mobile App Developer! Build a Great Career in App Development. This course provides an excellent platform to freshers to learn Android and iOS App Development (Native and Cross Platform) starting from basics to advanced level and secure a job. With more than 400+ recruiters aboard and avg. sal of 2.4 lacs/anum, We have 100% placement track for this course. "
+                            "subCourseDetails":"Become a Full Stack Mobile App Developer! Build a Great Career in App Development. This course provides an excellent platform to freshers to learn Android and iOS App Development (Native and Cross Platform) starting from basics to advanced level and secure a job. With more than 400+ recruiters aboard and avg. sal of 2.4 lacs/anum, We have 100% placement track for this course. ",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         }
                     ]
                 }
