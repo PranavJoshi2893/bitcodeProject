@@ -1,0 +1,15 @@
+<div class="wrapper">
+    <div *ngFor="let i of courseDetail">
+        <h1>{{i.content}}</h1>
+        <ul>
+            <li *ngFor="let j of i.subContent">
+                {{j.subContentName}}
+                <ul>
+                    <li *ngFor="let k of j.additionalSubContent">
+                        {{k}}
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

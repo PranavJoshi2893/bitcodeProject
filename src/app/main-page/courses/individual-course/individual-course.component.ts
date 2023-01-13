@@ -13,6 +13,7 @@ export class IndividualCourseComponent implements OnInit{
   subCourseId:number=0;
   subCourseName:string="";
   subCourseDetail:string="";
+  
   constructor(private _route:ActivatedRoute,private _bitcodeService:BitcodeService){}
 
   ngOnInit(): void {

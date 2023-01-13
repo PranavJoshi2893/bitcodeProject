@@ -1,4 +1,5 @@
-{"course" : 
+{
+    "course" : 
             [
                 {
                     "courseId":1,
@@ -8,13 +9,299 @@
                         {
                             "subCourseId":1,
                             "subCourseName":"Android App Development",
-                            "subCourseDetails":"Become a professional Android App Developer. This course will help you develop Android Programming skills, and start career in Android.As part of the course, you will learn Android architecture, user interfaces, activities, controls, layouts, services, content providers, multimedia APIs, maps, web serices and lot more. You’ll gain practical development experience by working on live project during the Android app development course. Learn Android today, and secure a great job and fast moving career! "
+                            "subCourseDetails":"Become a professional Android App Developer. This course will help you develop Android Programming skills, and start career in Android.As part of the course, you will learn Android architecture, user interfaces, activities, controls, layouts, services, content providers, multimedia APIs, maps, web serices and lot more. You’ll gain practical development experience by working on live project during the Android app development course. Learn Android today, and secure a great job and fast moving career! ",
+                            "courseContent":[
+                                {
+                                    "content":"Introduction to Android",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Android Architecture","additionalSubContent":[]},
+                                        {"subContentName":"Android application framework","additionalSubContent":[]},
+                                        {"subContentName":"Dalvik VM | ART","additionalSubContent":[]},
+                                        {"subContentName":"Android OS internals","additionalSubContent":[]},
+                                        {"subContentName":"Android software stack","additionalSubContent":[]},
+                                        {"subContentName":"Android platforms, versions and tools","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Getting started with Android",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Installing android-studio and Sdk","additionalSubContent":[]},
+                                        {"subContentName":"Creating the first Android project","additionalSubContent":[]},
+                                        {"subContentName":"Understanding the project structure","additionalSubContent":[]},
+                                        {"subContentName":"Running app on emulator","additionalSubContent":[]},
+                                        {"subContentName":"Android Components","additionalSubContent":["Activities","Services","Broadcast Receivers","Content Providers"]},
+                                        {"subContentName":"Understanding Intent","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Building UI with Activities",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Activities","additionalSubContent":[]},
+                                        {"subContentName":"Views, layouts and Common UI components","additionalSubContent":[]},
+                                        {"subContentName":"Creating UI through code and XML","additionalSubContent":[]},
+                                        {"subContentName":"Handling UI events and setting up listeners","additionalSubContent":[]},
+                                        {"subContentName":"Activity lifecycle","additionalSubContent":[]},
+                                        {"subContentName":"Intents","additionalSubContent":[]},
+                                        {"subContentName":"Communicating data among Activities","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Advanced UI",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Using different layouts ","additionalSubContent":["Linear Layout, Relative Layout","Constraint Layout, Coordinator Layout","Frame Layout"]},
+                                        {"subContentName":"Adapter Views ","additionalSubContent":["ListView, GridView, Spinner","Details of RecyclerView, and it's usage","RecyclerView architecture and internals"]},
+                                        {"subContentName":"UI performace","additionalSubContent":[]},
+                                        {"subContentName":"Using Option Menu, Context Menu, Actionbar and Toolabar","additionalSubContent":[]},
+                                        {"subContentName":"Custom Views and Compound Views","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"More UI Components",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"CardView","additionalSubContent":[]},
+                                        {"subContentName":"ScrollView ","additionalSubContent":[]},
+                                        {"subContentName":"FloatingActionButton","additionalSubContent":[]},
+                                        {"subContentName":"Radio Buttons","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Notifications",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Toasts, Custom Toasts","additionalSubContent":[]},
+                                        {"subContentName":"Dialogs (Alert, Progress, TimePicker, DatePicker)","additionalSubContent":[]},
+                                        {"subContentName":"Custom Dialogs","additionalSubContent":[]},
+                                        {"subContentName":"Status bar Notifications","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Multithreading",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Using Java multithreading classes","additionalSubContent":[]},
+                                        {"subContentName":"Using AsyncTask, Handler","additionalSubContent":[]},
+                                        {"subContentName":"Post, runOnUiThread","additionalSubContent":[]},
+                                        {"subContentName":"Managing UI thread, worker threads","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Styles And Themes",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Creating and Applying simple Style","additionalSubContent":[]},
+                                        {"subContentName":"Inheriting built-in Style and User defined style","additionalSubContent":[]},
+                                        {"subContentName":"Using Styles as themes","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Multimedia in Android",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Working with audio, video and different media formats","additionalSubContent":[]},
+                                        {"subContentName":"Recording audio, video","additionalSubContent":[]},
+                                        {"subContentName":"Using VideoView","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Resources and Assets",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Android Resource types","additionalSubContent":[]},
+                                        {"subContentName":"Using resources in XML and code","additionalSubContent":[]},
+                                        {"subContentName":"Localization","additionalSubContent":[]},
+                                        {"subContentName":"Handling Runtime configuration changes","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Fragments",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Introduction to Fragments","additionalSubContent":[]},
+                                        {"subContentName":"How to use fragments through code and xml","additionalSubContent":[]},
+                                        {"subContentName":"Fragment life cycle","additionalSubContent":[]},
+                                        {"subContentName":"Creating fragments with and without UI","additionalSubContent":[]},
+                                        {"subContentName":"Inter fragment data communication","additionalSubContent":[]},
+                                        {"subContentName":"Using built in fragment","additionalSubContent":[]},
+                                        {"subContentName":"Fragments for performace","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Services",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Overview of services in Android","additionalSubContent":[]},
+                                        {"subContentName":"Implementing a Service","additionalSubContent":[]},
+                                        {"subContentName":"Service lifecycle","additionalSubContent":[]},
+                                        {"subContentName":"Inter Process Communication (AIDL Services)","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Runtime Permission",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Using permissions in manifest","additionalSubContent":[]},
+                                        {"subContentName":"Requesting run-time permissions","additionalSubContent":[]},
+                                        {"subContentName":"Creating and applying permissions","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Intent, Intent Filters and Broadcast Receivers",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"What are Intent filters","additionalSubContent":[]},
+                                        {"subContentName":"Intent-matching rules","additionalSubContent":[]},
+                                        {"subContentName":"Using Intent filters to create usable components","additionalSubContent":[]},
+                                        {"subContentName":"Filters in your manifest","additionalSubContent":[]},
+                                        {"subContentName":"Filters in dynamic Broadcast Receivers","additionalSubContent":[]},
+                                        {"subContentName":"Creating Broadcast receiver","additionalSubContent":[]},
+                                        {"subContentName":"Receiving System Broadcast","additionalSubContent":[]},
+                                        {"subContentName":"Understanding Broadcast action, category and data","additionalSubContent":[]},
+                                        {"subContentName":"Registering Broadcast receiver through code and through XML","additionalSubContent":[]},
+                                        {"subContentName":"Sending Broadcast","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Persistent Data Storage",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Shared Preferences","additionalSubContent":["Understanding Shared Preferences","Writing and reading data from Shared Preferences"]},
+                                        {"subContentName":"Android File System ","additionalSubContent":["Understanding Android file system","Working with Internal Storage","Working with External Storage","Security"]},
+                                        {"subContentName":"Working with SQLite","additionalSubContent":["Introduction to SQLite","Creating database","Using Cursor, ContentValue","CRUD operations with SQLite","Working with SQLiteOpenHelper","Upgrading/Downgrading database"]},
+                                        {"subContentName":"Networking in Android","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Content Providers",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Accessing built in content providers","additionalSubContent":[]},
+                                        {"subContentName":"Content provider MIME types ","additionalSubContent":[]},
+                                        {"subContentName":"Searching for content","additionalSubContent":[]},
+                                        {"subContentName":"Adding, changing, and removing content","additionalSubContent":[]},
+                                        {"subContentName":"Creating content provide","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Web Services and WebView",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Understanding HTTP Request Response model","additionalSubContent":[]},
+                                        {"subContentName":"HTTPUrlConnection","additionalSubContent":[]},
+                                        {"subContentName":"Consuming REST APIs","additionalSubContent":[]},
+                                        {"subContentName":"Parsing JSON/XML","additionalSubContent":[]},
+                                        {"subContentName":"Using google Volley, Retrofit networking libraries","additionalSubContent":[]},
+                                        {"subContentName":"Using WebView","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Location Based Services and Google Maps",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Using Location Based Services","additionalSubContent":[]},
+                                        {"subContentName":"Finding current location and listening for changes in location","additionalSubContent":[]},
+                                        {"subContentName":"Proximity alerts, Geofencing APIs","additionalSubContent":[]},
+                                        {"subContentName":"Working with Google Maps","additionalSubContent":[]},
+                                        {"subContentName":"Showing google map in an Activity","additionalSubContent":[]},
+                                        {"subContentName":"Using Map Fragment and MapView","additionalSubContent":[]},
+                                        {"subContentName":"Customizing maps","additionalSubContent":[]},
+                                        {"subContentName":"Working with map marker","additionalSubContent":[]},
+                                        {"subContentName":"Custom Markers and Info Windows","additionalSubContent":[]},
+                                        {"subContentName":"Drawing on the map","additionalSubContent":[]},
+                                        {"subContentName":"Interacting with the map","additionalSubContent":[]},
+                                        {"subContentName":"Geocoder","additionalSubContent":[]},
+                                        {"subContentName":"Displaying route on map","additionalSubContent":[]},
+                                        {"subContentName":"Street View using street view panorama","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Working with Sensors",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Using SensorManager, Sensor classes","additionalSubContent":[]},
+                                        {"subContentName":"Reading Sensor values","additionalSubContent":[]},
+                                        {"subContentName":"Using accelerometer and orientation sensors","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Wifi",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Using WifiManager","additionalSubContent":[]},
+                                        {"subContentName":"Obtaining list of Wifi Networks","additionalSubContent":[]},
+                                        {"subContentName":"Adding, Removing and modifying Wifi networks","additionalSubContent":[]},
+                                        {"subContentName":"Scanning Wifi networks","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Telephony Services",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Using TelephonyManager, SMSManager","additionalSubContent":[]},
+                                        {"subContentName":"Making and Receiving calls and text messages","additionalSubContent":[]},
+                                        {"subContentName":"Listening to different phone states","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Camera2 Apis",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Using Camera2 APIs","additionalSubContent":[]},
+                                        {"subContentName":"Creating Camera preview","additionalSubContent":[]},
+                                        {"subContentName":"Clicking pictures, capturing videos","additionalSubContent":[]},
+                                        {"subContentName":"Customizing camera settings","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Bluetooth APIs",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Controlling local blutooth radio","additionalSubContent":[]},
+                                        {"subContentName":"Discovering and bonding with bluetooth devices","additionalSubContent":[]},
+                                        {"subContentName":"Managing bluetooth connections","additionalSubContent":[]},
+                                        {"subContentName":"Communicating over bluetooth","additionalSubContent":[]}
+                                    ]
+                                },
+                                {
+                                    "content":"Deploying App on Play Store",
+                                    "subContent":[]
+                                },
+                                {
+                                    "content":"Advanced topics",
+                                    "subContent":
+                                    [
+                                        {"subContentName":"Introduction to Firebase Authentication, Real time database, Storage APIS, FCM","additionalSubContent":[]},
+                                        {"subContentName":"Memory profiling","additionalSubContent":[]}
+                                    ]
+                                }
+                            ]
                         },
+
+
+
+
+
+
+
                         
                         {
                             "subCourseId":2,
                             "subCourseName":"Android Expert",
-                            "subCourseDetails":"Become a professional Android App Developer. This course will help you develop Android Programming skills, and start career in Android.As part of the course, you will learn Android architecture, user interfaces, activities, controls, layouts, services, content providers, multimedia APIs, maps, web serices and lot more. You’ll gain practical development experience by working on live project during the Android app development course. Learn Android today, and secure a great job and fast moving career!"
+                            "subCourseDetails":"Become a professional Android App Developer. This course will help you develop Android Programming skills, and start career in Android.As part of the course, you will learn Android architecture, user interfaces, activities, controls, layouts, services, content providers, multimedia APIs, maps, web serices and lot more. You’ll gain practical development experience by working on live project during the Android app development course. Learn Android today, and secure a great job and fast moving career!",
+                            "courseContent":[
+                                {
+                                    "content":"",
+                                    "subContent":[
+                                        {"subContentName":"","additionalSubContent":[]},
+                                        {"subContentName":"","additionalSubContent":[]}
+                                    ]
+                                }
+
+                            ]
                         },
                         
                         {
@@ -154,11 +441,10 @@
                 }
             ],
 
- "jobOrientedCourse":
+    "jobOrientedCourse":
 
             [
                 "DMAD(Deploma in mobile app development)","Web Expert(Full stack web Development)","Java Expert(Full stack java development)","Android Expert(Core java,Android)","iExpert(c,c++,Swift,iOS)"
             ]
+                
 }
-
-

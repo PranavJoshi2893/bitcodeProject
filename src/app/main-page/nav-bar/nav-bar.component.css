@@ -1,7 +1,7 @@
 nav{
     display: grid;
-    grid-template-columns: repeat(8,1fr);
-    width: 760px;
+    grid-template-columns: repeat(10,1fr);
+    width: 1000px;
     height: 70px;
     align-items: center;
     font-size: 0.9rem;
@@ -40,6 +40,20 @@ a{
 .tooltip:hover a{
     background-color: rgba(0, 0, 0, 0.03);
     color: blue;
+}
+button{
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+    background-color:#073042;
+    color: #ffffff;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #3ddc84;
+    color: #000000;
+    transition:ease 0.1s; 
 }
 
 

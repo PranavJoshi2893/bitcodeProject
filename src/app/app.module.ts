@@ -17,6 +17,7 @@ import { TempComp1Component } from './main-page/info-page/temp-comp1/temp-comp1.
 import { CoursesComponent } from './main-page/courses/courses.component';
 import { PageNotFoundComponent } from './main-page/page-not-found/page-not-found.component';
 import { IndividualCourseComponent } from './main-page/courses/individual-course/individual-course.component';
+import { CourseContentComponent } from './main-page/courses/course-content/course-content.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { IndividualCourseComponent } from './main-page/courses/individual-course
     TempComp1Component,
     CoursesComponent,
     PageNotFoundComponent,
-    IndividualCourseComponent
+    IndividualCourseComponent,
+    CourseContentComponent
   ],
   imports: [
     BrowserModule,
