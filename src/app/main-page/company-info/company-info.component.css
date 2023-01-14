@@ -6,11 +6,9 @@
 .mainContainer{
     margin: 50px auto;
     height: min-content;
-    display: flex;
-    justify-content: space-between;
-}
-.container{
-    width: 18%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    gap: 7.2px;
 }
 h1{
     font-size: 1.5rem;

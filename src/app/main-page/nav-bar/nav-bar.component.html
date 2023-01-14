@@ -1,65 +1,30 @@
 <div class="mainContainer">
-    
-    <div class="imageContainer"><img src="./assets/images/bitcode.png" alt="img not found"></div>
-        
-
-    <nav *ngIf="turnOnOff();else elseBlock">
-
-        <div class="tooltip">
-            <a  routerLink="/home">Home</a>
-        </div>
-        
-        <div class="tooltip">
-            <a>Course 
-                <span class="tooltiptext">
-                    <app-tool-tip [arr]="courses"></app-tool-tip>
-                </span>
-            </a>
-        </div>
-        
-        <div class="tooltip">
-            <a routerLink="#">DMAD 
-                <span class="tooltiptext">
-                    <app-tool-tip></app-tool-tip>
-                </span>
-            </a>
-        </div>
-        
-        <div class="tooltip">
-            <a routerLink="#">Schedule</a>
-        </div>
-        
-        <div class="tooltip">
-            <a routerLink="#">Clients</a>
-        </div>
-        
-        <div class="tooltip">
-            <a routerLink="#">Placement</a>
-        </div>
-        
-        <div class="tooltip">
-            <a routerLink="#">About-Us</a>
-        </div>
-        
-        <div class="tooltip">
-            <a routerLink="#">Contact</a>
-        </div>
-
-        <div class="tooltip">
-            <button>Read More</button>
-        </div>
-        <div class="tooltip">
-            <button>Read More</button>
-        </div>
-    </nav>
-
-    <ng-template #elseBlock>
-        <div class="menuContainer">
-            <a class="menuIcon" href="#">
-                <span class="material-symbols-rounded">
-                    menu
-                </span>
-            </a>
-        </div>
-    </ng-template>
+    <mat-toolbar class="toolbar">
+        <span class="spacer"></span>
+        <nav *ngIf="turnOnOff()">
+            <button mat-flat-button>Home</button>
+            <button mat-flat-button (click)="onSelect()">Courses</button>
+            <button mat-flat-button>DMAD</button>
+            <button mat-flat-button>Schedule</button>
+            <button mat-flat-button>Clients</button>
+            <button mat-flat-button>Placements</button>
+            <button mat-flat-button>About Us</button>
+            <button mat-flat-button>Contact</button>
+        </nav>
+        <button mat-icon-button *ngIf="!turnOnOff()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </mat-toolbar>
 </div>
+<mat-card *ngIf="condition">
+    <mat-card-content>
+      <mat-grid-list cols="4" rowHeight="2:1">
+        <mat-grid-tile *ngFor="let course of courses">
+          <div class="container">
+            <h2>{{course.courseName}}</h2>
+            <button mat-flat-button *ngFor="let subCourse of course.subCourse">{{subCourse.subCourseName}}</button>
+          </div>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card-content>
+</mat-card>

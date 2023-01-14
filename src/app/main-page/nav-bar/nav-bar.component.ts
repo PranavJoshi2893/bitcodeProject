@@ -15,18 +15,14 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
     this._bitcodeService.getData().subscribe(data=>{
         this.courses=data.course;
+        console.log(this.courses)
       })
   }
   
   public getScreenWidth:number=window.innerWidth;
 
-  @HostListener('window:resize',['$event'])
-  onWindowResize(){
-    this.getScreenWidth=window.innerWidth;
-  }
-
   turnOnOff():boolean{
-    if(this.getScreenWidth>=1024){
+    if(this.getScreenWidth>=1025){
       return true;
     }
     else{
@@ -36,5 +32,17 @@ export class NavBarComponent implements OnInit {
 
   courseIndex:number=0;
   subCourseIndex:number=0;
+
+
+
+  condition:boolean=false;
+  onSelect(){
+    if(this.condition==false){
+      this.condition=true;
+    }
+    else{
+      this.condition=false;
+    }
+  }
   
 }
