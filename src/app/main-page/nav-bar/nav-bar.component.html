@@ -1,30 +1,50 @@
 <div class="mainContainer">
     <mat-toolbar class="toolbar">
         <span class="spacer"></span>
-        <nav *ngIf="turnOnOff()">
-            <button mat-flat-button>Home</button>
-            <button mat-flat-button (click)="onSelect()">Courses</button>
-            <button mat-flat-button>DMAD</button>
-            <button mat-flat-button>Schedule</button>
-            <button mat-flat-button>Clients</button>
-            <button mat-flat-button>Placements</button>
-            <button mat-flat-button>About Us</button>
-            <button mat-flat-button>Contact</button>
+        
+        <nav *ngIf="turnOnOff()" class="btn-container-wrapper">
+            <div class="btn-container">
+              <a class="btn">Home</a>
+            </div>
+            <div class="btn-container">
+              <a class="btn" (click)="onSelect()">Courses</a>
+            </div>
+            <div class="btn-container">
+              <a class="btn">DMAD</a>
+            </div>
+            <div class="btn-container">
+              <a class="btn">Schedule</a>
+            </div>
+            <div class="btn-container">
+              <a class="btn">Clients</a>
+            </div>
+            <div class="btn-container">
+              <a class="btn">Placements</a>
+            </div>
+            <div class="btn-container">
+              <a class="btn">About Us</a>
+            </div>
+            <div class="btn-container">
+              <a class="btn">Contact</a>
+            </div>
         </nav>
+
         <button mat-icon-button *ngIf="!turnOnOff()">
           <mat-icon>menu</mat-icon>
         </button>
       </mat-toolbar>
 </div>
-<mat-card *ngIf="condition">
+
+
+<mat-card *ngIf="condition" style="border-radius: 0%;">
     <mat-card-content>
-      <mat-grid-list cols="4" rowHeight="2:1">
-        <mat-grid-tile *ngFor="let course of courses">
+      <div class="grid">
+        <div *ngFor="let course of courses">
           <div class="container">
             <h2>{{course.courseName}}</h2>
             <button mat-flat-button *ngFor="let subCourse of course.subCourse">{{subCourse.subCourseName}}</button>
           </div>
-        </mat-grid-tile>
-      </mat-grid-list>
+        </div>
+      </div>
     </mat-card-content>
 </mat-card>
