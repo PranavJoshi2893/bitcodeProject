@@ -34,14 +34,17 @@ export class NavBarComponent implements OnInit {
   subCourseIndex:number=0;
 
 
-
+  btnColor:string="#ffffff";
   condition:boolean=false;
+  
   onSelect(){
     if(this.condition==false){
       this.condition=true;
+      this.btnColor ="#90ee9033";
     }
     else{
       this.condition=false;
+      this.btnColor ="#ffffff";
     }
   }
   

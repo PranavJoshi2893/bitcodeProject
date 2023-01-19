@@ -1,6 +1,9 @@
 .spacer {
     flex: 1 1 auto;
 }
+img{
+    height: 60%;
+}
 .toolbar{
     background-color: #ffffff;
     box-shadow: 0px 1px 2px grey;
@@ -40,19 +43,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
-    background-color: #073042;
+    color: #000000;
+    position: absolute;
     z-index: 1;
+    overflow: hidden;
 }
 .btn::before{
+    position: absolute;
+    left: 0;
+    top: 0;
     content: "";
     width: 0px;
-    height: 40px;
+    height: 100%;
+    border-radius: 20px;
+    transition: .4s;
     z-index: -1;
-    transition: 1s;
 }
 .btn:hover::before{
-    background-color: #3ddc84;
-    color: #000000;
-    width: 80px;
+    background-color: #90ee9033;
+    width: 100%;
 }

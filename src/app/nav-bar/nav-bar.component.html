@@ -1,16 +1,19 @@
 <div class="mainContainer">
     <mat-toolbar class="toolbar">
-        <span class="spacer"></span>
+
+      
+      <img src="../../assets/images/bitcode.png" alt="no image found">
+      <span class="spacer"></span>
         
         <nav *ngIf="turnOnOff()" class="btn-container-wrapper">
             <div class="btn-container">
               <a class="btn">Home</a>
             </div>
             <div class="btn-container">
-              <a class="btn" (click)="onSelect()">Courses</a>
+              <a class="btn" (click)="onSelect()" [ngStyle]="{'background-color':btnColor}">Courses</a>
             </div>
             <div class="btn-container">
-              <a class="btn">DMAD</a>
+              <a class="btn" >DMAD</a>
             </div>
             <div class="btn-container">
               <a class="btn">Schedule</a>
@@ -42,7 +45,7 @@
         <div *ngFor="let course of courses">
           <div class="container">
             <h2>{{course.courseName}}</h2>
-            <button mat-flat-button *ngFor="let subCourse of course.subCourse">{{subCourse.subCourseName}}</button>
+            <button *ngFor="let subCourse of course.subCourse">{{subCourse.subCourseName}}</button>
           </div>
         </div>
       </div>
