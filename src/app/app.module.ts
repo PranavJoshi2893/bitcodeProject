@@ -23,7 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button'; 
+import {MatButtonModule} from '@angular/material/button';
+import { ProfileImagesComponent } from './main-page/profile-images/profile-images.component'; 
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -38,7 +39,8 @@ import {MatButtonModule} from '@angular/material/button';
     CoursesComponent,
     PageNotFoundComponent,
     IndividualCourseComponent,
-    CourseContentComponent
+    CourseContentComponent,
+    ProfileImagesComponent
   ],
   imports: [
     BrowserModule,

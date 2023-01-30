@@ -1,5 +1,5 @@
-.mainContainer{
-    width: 100%;
+.wrapper{
+    width: 80vw;
     height:1000px;
     margin: 0 auto;
     display: flex;
@@ -13,42 +13,24 @@
     display: grid;
     position: relative;
     grid-template-columns: repeat(7, 490px);
-    gap: 4vmax;
-    transition: all ease-in-out 0.5s;
+    gap: 4vw;
 }
 
 .courseCard{
     border-radius: 25px;
-    box-shadow: 20px 10px 50px grey;
+    box-shadow: 0px 0px 10px grey;
     height: 600px;
-}
-.courseCard:hover{
-    box-shadow: 10px 10px 10px grey;
-}
-.courseCard::before{
-    content:"";
-    border-radius: 25px;
-    position: absolute;
-    background-color: rgba(144, 238, 144, 0.2);
-    z-index: -1;
-    width: 0%;
-    height: 0%;
-}
-.courseCard:hover::before{
-    width: 490px;
-    height: 600px;
-    transition: 0.5s;
 }
 
 h1{
-    font-size: 4rem;
-    width: 1024px;
+    width: 80vw;
     margin: 0 auto;
+    font-size: 4rem;
     font-weight: 300;
 }
 
 .slider-container{
-    width: 60vmax;
+    width: 80vw;
     margin: 0 auto;
 }
 

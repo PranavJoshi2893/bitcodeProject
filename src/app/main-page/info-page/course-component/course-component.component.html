@@ -1,6 +1,6 @@
-<div class="mainContainer">
+<div class="wrapper">
     <h1>Job Oriented Courses</h1>
-    <div class="cardContainer" [ngStyle]="{'left':''+ cardContainerPosition +'%'}" >
+    <div class="cardContainer">
         <div class="courseCard" *ngFor="let ele of arr">
             <app-course-card [course]="ele"></app-course-card>
         </div>
@@ -18,6 +18,3 @@
     </div>
 
 </div>
-
-
-<!-- *ngIf="turnOnOff()" -->
