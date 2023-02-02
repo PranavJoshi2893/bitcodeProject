@@ -11,8 +11,7 @@
     overflow-x: hidden;
 }
 h1{
-    font-size: 4rem;
-    font-weight: 300;
+    font-size: 1.8rem;
 }
 .cardHolder{
     display: flex;

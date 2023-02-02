@@ -1,14 +1,14 @@
 <div class="wrapper">
     <h1>Job Oriented Courses</h1>
-    <div class="cardContainer">
+    <div class="cardContainer" #cardContainer>
         <div class="courseCard" *ngFor="let ele of arr">
-            <!-- <app-course-card [course]="ele"></app-course-card> -->
+            <app-course-card [course]="ele"></app-course-card>  
         </div>
     </div>
 
     <div class="slider-container">
         <div class="slider">
-            <div class="sliderCompleted" [ngStyle]="{'width':''+ percentage +'%'}"></div>
+            <mat-progress-bar mode="determinate" value={{percentage}}></mat-progress-bar>
         </div>
 
         <div class="arrow-container">

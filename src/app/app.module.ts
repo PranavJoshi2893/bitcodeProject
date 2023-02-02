@@ -25,6 +25,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatRippleModule} from '@angular/material/core';
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -51,7 +53,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatIconModule,
     MatCardModule,
     MatButtonModule,
-    MatGridListModule
+    MatGridListModule,
+    MatProgressBarModule,
+    MatRippleModule
   ],
   providers: [BitcodeService],
   bootstrap: [AppComponent]
