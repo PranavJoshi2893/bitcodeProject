@@ -15,51 +15,21 @@ img{
     height: 100%;
     align-items:flex-start;
 }
-.grid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    height: min-content;
-}
 .btn-container-wrapper{
     display: flex;
     height: 100%;
-}
-.btn-container{
-    display: flex;
-    width: 100px;
-    height: 100%;
-    justify-content: center;
     align-items: center;
 }
-.btn-container:hover{
-    cursor: pointer;
-}
-.btn{
-    width: 80px;
+.btn-type2{
+    margin: 5px 10px;
+    width: 60%;
+    text-align: left;
     height: 40px;
     border-radius: 20px;
-    text-decoration: none;
-    font-size: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-    position: absolute;
-    z-index: 1;
-    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.1);
+    border: none;
 }
-.btn::before{
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: "";
-    width: 0px;
-    height: 100%;
-    border-radius: 20px;
-    transition: .4s;
-    z-index: -1;
-}
-.btn:hover::before{
-    background-color: #90ee9033;
-    width: 100%;
+.btn-type2:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+    cursor: pointer;
 }

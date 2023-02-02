@@ -24,7 +24,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
-import { ProfileImagesComponent } from './main-page/profile-images/profile-images.component'; 
+import {MatGridListModule} from '@angular/material/grid-list';
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -40,7 +40,6 @@ import { ProfileImagesComponent } from './main-page/profile-images/profile-image
     PageNotFoundComponent,
     IndividualCourseComponent,
     CourseContentComponent,
-    ProfileImagesComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +50,8 @@ import { ProfileImagesComponent } from './main-page/profile-images/profile-image
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatGridListModule
   ],
   providers: [BitcodeService],
   bootstrap: [AppComponent]

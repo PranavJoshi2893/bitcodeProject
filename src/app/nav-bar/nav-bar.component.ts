@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, HostListener, OnChanges, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BitcodeService } from 'src/app/bitcode.service';
 
@@ -7,7 +7,7 @@ import { BitcodeService } from 'src/app/bitcode.service';
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css']
 })
-export class NavBarComponent implements OnInit {
+export class NavBarComponent implements OnInit,OnChanges {
   
   courses:any[]=[];
   constructor(private _bitcodeService:BitcodeService){}
@@ -15,14 +15,17 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
     this._bitcodeService.getData().subscribe(data=>{
         this.courses=data.course;
-        console.log(this.courses)
       })
   }
   
   public getScreenWidth:number=window.innerWidth;
 
+  ngOnChanges():void{
+    this.getScreenWidth;
+  }
+
   turnOnOff():boolean{
-    if(this.getScreenWidth>=1025){
+    if(this.getScreenWidth>=1024){
       return true;
     }
     else{
@@ -30,21 +33,14 @@ export class NavBarComponent implements OnInit {
     }
   }
 
-  courseIndex:number=0;
-  subCourseIndex:number=0;
-
-
-  btnColor:string="#ffffff";
   condition:boolean=false;
   
   onSelect(){
     if(this.condition==false){
       this.condition=true;
-      this.btnColor ="#90ee9033";
     }
     else{
       this.condition=false;
-      this.btnColor ="#ffffff";
     }
   }
   
