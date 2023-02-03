@@ -8,10 +8,15 @@ import { Observable } from 'rxjs';
 export class BitcodeService {
 
   private _url:string="./assets/data/courseData.json";
+  private _advantageUrl:string="./assets/data/advantageBitcode.json";
   constructor(private _http:HttpClient) { }
 
   getData():Observable<any>{
     return this._http.get<any>(this._url);
+  }
+
+  getAdvantageData():Observable<any>{
+    return this._http.get<any>(this._advantageUrl);
   }
   
 }

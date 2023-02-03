@@ -27,6 +27,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatRippleModule} from '@angular/material/core';
+import { AdvantageBitcodeComponent } from './main-page/info-page/advantage-bitcode/advantage-bitcode.component';
+import { AdvantageCardComponent } from './main-page/info-page/advantage-bitcode/advantage-card/advantage-card.component';
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -42,6 +44,8 @@ import {MatRippleModule} from '@angular/material/core';
     PageNotFoundComponent,
     IndividualCourseComponent,
     CourseContentComponent,
+    AdvantageBitcodeComponent,
+    AdvantageCardComponent,
   ],
   imports: [
     BrowserModule,

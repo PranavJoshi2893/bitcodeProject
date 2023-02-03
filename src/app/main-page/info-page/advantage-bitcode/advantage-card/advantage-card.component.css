@@ -1,0 +1,10 @@
+.wrapper{
+    width: 400px;
+    height: 400px;
+    justify-content: space-around;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
