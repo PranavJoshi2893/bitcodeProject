@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './main-page/page-not-found/page-not-found.component';
 import { CourseContentComponent } from './main-page/courses/course-content/course-content.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { IndividualCourseComponent } from './main-page/courses/individual-course/individual-course.component';
 
 
 // angular material------------------------------------------------------------------------------------------------------
@@ -27,7 +28,10 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatRippleModule} from '@angular/material/core';
 import { AdvantageBitcodeComponent } from './main-page/info-page/advantage-bitcode/advantage-bitcode.component';
 import { AdvantageCardComponent } from './main-page/info-page/advantage-bitcode/advantage-card/advantage-card.component';
-import { IndividualCourseComponent } from './main-page/courses/individual-course/individual-course.component';
+import { LifeAtBitcodeComponent } from './main-page/info-page/life-at-bitcode/life-at-bitcode.component';
+import { TestimonialsComponent } from './main-page/info-page/testimonials/testimonials.component';
+import { BannerComponent } from './main-page/info-page/banner/banner.component';
+import { BannerContainerComponent } from './main-page/info-page/banner/banner-container/banner-container.component';
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -43,7 +47,11 @@ import { IndividualCourseComponent } from './main-page/courses/individual-course
     CourseContentComponent,
     AdvantageBitcodeComponent,
     AdvantageCardComponent,
-    IndividualCourseComponent
+    IndividualCourseComponent,
+    LifeAtBitcodeComponent,
+    TestimonialsComponent,
+    BannerComponent,
+    BannerContainerComponent
   ],
   imports: [
     BrowserModule,

@@ -21,3 +21,7 @@ h1{
     scrollbar-width: none;
     scroll-behavior:smooth;
 }
+.advantageCards{
+    margin-left: 18px;
+    margin-right: 18px;
+}

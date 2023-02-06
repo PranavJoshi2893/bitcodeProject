@@ -9,6 +9,7 @@ export class BitcodeService {
 
   private _url:string="./assets/data/courseData.json";
   private _advantageUrl:string="./assets/data/advantageBitcode.json";
+  private _bannerImagesUrl:string="./assets/data/banner-images.json";
   constructor(private _http:HttpClient) { }
 
   getData():Observable<any>{
@@ -19,4 +20,10 @@ export class BitcodeService {
     return this._http.get<any>(this._advantageUrl);
   }
   
+
+  getBannerImages():Observable<any>{
+    return this._http.get<any>(this._bannerImagesUrl);
+  }
+
+
 }

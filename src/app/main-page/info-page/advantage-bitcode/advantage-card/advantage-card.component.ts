@@ -1,18 +1,14 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-advantage-card',
   templateUrl: './advantage-card.component.html',
   styleUrls: ['./advantage-card.component.css']
 })
-export class AdvantageCardComponent implements OnInit {
+export class AdvantageCardComponent {
 
   @Input() images:string="";
 
   @Input() description:string="";
-
-  ngOnInit(){
-    console.log(this.images);
-  }
 
 }
