@@ -1,5 +1,5 @@
 <div class="wrapper">
-    <mat-card>
-        <app-banner-container *ngFor="let image of images" [bannerImage]="image"></app-banner-container>
-    </mat-card>
+    <div class="image_container">
+        <app-banner-container *ngFor="let image of images" [bannerImage]="image.image"></app-banner-container>
+    </div>
 </div>

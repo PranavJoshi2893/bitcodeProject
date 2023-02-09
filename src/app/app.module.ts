@@ -13,9 +13,7 @@ import { CourseCardComponent } from './main-page/info-page/course-component/cour
 import { BitcodeService } from './bitcode.service';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './main-page/page-not-found/page-not-found.component';
-import { CourseContentComponent } from './main-page/courses/course-content/course-content.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { IndividualCourseComponent } from './main-page/courses/individual-course/individual-course.component';
 
 
 // angular material------------------------------------------------------------------------------------------------------
@@ -44,10 +42,8 @@ import { BannerContainerComponent } from './main-page/info-page/banner/banner-co
     CompanyInfoComponent,
     CourseCardComponent,
     PageNotFoundComponent,
-    CourseContentComponent,
     AdvantageBitcodeComponent,
     AdvantageCardComponent,
-    IndividualCourseComponent,
     LifeAtBitcodeComponent,
     TestimonialsComponent,
     BannerComponent,

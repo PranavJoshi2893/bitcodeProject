@@ -2,3 +2,14 @@
     width: 100vw;
     height: 700px;
 }
+.image_container{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type:inline mandatory;
+}
+
+.image_container>*{
+    scroll-snap-align: start;
+}
