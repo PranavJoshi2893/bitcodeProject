@@ -5,8 +5,12 @@
     grid-auto-flow: column;
     overflow-x: auto;
     scrollbar-width: none;
-    scroll-behavior:smooth;
     column-gap: 18px;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type:inline mandatory;
+}
+.wrapper>*{
+    scroll-snap-align: start;
 }
 .wrapper::-webkit-scrollbar{
     display: none;

@@ -6,12 +6,12 @@
         <nav *ngIf="turnOnOff()" class="btn-container-wrapper">
             <button mat-flat-button routerLink="/home">Home</button>
             <button mat-flat-button (click)="onSelect()" routerLink="/courses">Courses</button>
-            <button mat-flat-button>DMAD</button>
-            <button mat-flat-button>Schedule</button>
-            <button mat-flat-button>Clients</button>
-            <button mat-flat-button>Placements</button>
-            <button mat-flat-button>About Us</button>
-            <button mat-flat-button>Contact</button>
+            <button mat-flat-button routerLink="DMAD">DMAD</button>
+            <button mat-flat-button routerLink="schedule">Schedule</button>
+            <button mat-flat-button routerLink="clients">Clients</button>
+            <button mat-flat-button routerLink="placements">Placements</button>
+            <button mat-flat-button routerLink="about-us">About Us</button>
+            <button mat-flat-button routerLink="contact">Contact</button>
         </nav>
 
         <button mat-icon-button *ngIf="!turnOnOff()">

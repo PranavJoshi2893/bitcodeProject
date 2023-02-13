@@ -25,6 +25,13 @@ import { ClientAndRecruitersComponent } from './main-page/home-page/client-and-r
 import { CardContainerComponent } from './main-page/home-page/card-container/card-container.component';
 //-----------------------------------------------------------------------------------------------------------------------
 
+
+import { CoursesPageComponent } from './main-page/courses-page/courses-page.component';
+import { DMADPageComponent } from './main-page/dmad-page/dmad-page.component';
+import { SchedulePageComponent } from './main-page/schedule-page/schedule-page.component';
+import { ClientsPageComponent } from './main-page/clients-page/clients-page.component';
+
+
 // angular material------------------------------------------------------------------------------------------------------
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
@@ -33,6 +40,9 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatRippleModule} from '@angular/material/core';
+import { PlacementsPageComponent } from './main-page/placements-page/placements-page.component';
+import { AboutusPageComponent } from './main-page/aboutus-page/aboutus-page.component';
+import { ContactPageComponent } from './main-page/contact-page/contact-page.component';
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -51,7 +61,14 @@ import {MatRippleModule} from '@angular/material/core';
     SliderContainerComponent,
     SliderComponent,
     HomePageComponent,
-    CardContainerComponent
+    CardContainerComponent,
+    CoursesPageComponent,
+    DMADPageComponent,
+    SchedulePageComponent,
+    ClientsPageComponent,
+    PlacementsPageComponent,
+    AboutusPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,

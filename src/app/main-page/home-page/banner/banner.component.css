@@ -8,8 +8,13 @@
     overflow-x: auto;
     overscroll-behavior-inline: contain;
     scroll-snap-type:inline mandatory;
+    scrollbar-width: none;
 }
 
 .image_container>*{
     scroll-snap-align: start;
+}
+
+.image_container::-webkit-scrollbar{
+    display: none;
 }
