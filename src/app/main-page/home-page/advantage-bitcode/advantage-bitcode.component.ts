@@ -15,5 +15,9 @@ export class AdvantageBitcodeComponent implements OnInit{
     this._bitcodeService.getAdvantageData().subscribe(data=>this.advantages=data);
   }
 
+  percentage:number=0;
+  receivePercentage(event:number){
+    this.percentage=event;
+  }
 
 }

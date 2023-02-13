@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, DoCheck, Input, OnInit } from '@angular/core';
 
 
 @Component({
@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.css']
 })
-export class SliderComponent{
+export class SliderComponent implements DoCheck{
   
-  percentage:number=0;
+  @Input() percentage:number=0;
+  
   cardNumber:number=0;
   devision:number=0;
 
@@ -28,6 +29,7 @@ export class SliderComponent{
   rightButtonColor:string="#4a4a4a";
   leftButtonColor:string="#4a4a4a";
   ngDoCheck(): void {
+    this.percentage;
     if(this.percentage==100){
       this.rightButtonColor="#1cdac5"
     }

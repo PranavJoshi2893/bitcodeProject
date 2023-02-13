@@ -1,5 +1,5 @@
 <div class="wrapper">
     <h1>Job Oriented Courses</h1>
     <app-slider-container [arr]="courses" (valueEmitter)="receivePercentage($event)"></app-slider-container>
-    <app-slider></app-slider>
+    <app-slider [percentage]="percentage"></app-slider>
 </div>
