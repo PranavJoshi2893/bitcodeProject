@@ -1,8 +1,5 @@
 <div class="wrapper">
     <h1>Advantage Bitcode</h1>
-    <div class="cardContainer">
-        <div class="advantageCards" *ngFor="let advantage of advantages">
-            <app-advantage-card [images]="advantage.img" [description]="advantage.description"></app-advantage-card>
-        </div>
-    </div>
+    <app-slider-container [arr]="advantages"></app-slider-container>
+    <app-slider></app-slider>
 </div>

@@ -1,20 +1,5 @@
 <div class="wrapper">
     <h1>Job Oriented Courses</h1>
-    <div class="cardContainer" #cardContainer>
-        <div class="courseCard" *ngFor="let ele of arr">
-            <app-course-card [course]="ele"></app-course-card>  
-        </div>
-    </div>
-
-    <div class="slider-container">
-        <div class="slider">
-            <mat-progress-bar mode="determinate" value={{percentage}}></mat-progress-bar>
-        </div>
-
-        <div class="arrow-container">
-            <span class="material-symbols-rounded arrow-behaviour" (click)="onRightClick()" [style.color]="rightButtonColor">arrow_circle_right</span>
-            <span class="material-symbols-rounded arrow-behaviour" (click)="onLeftClick()" [style.color]="leftButtonColor">arrow_circle_left</span>
-        </div>
-    </div>
-
+    <app-slider-container [arr]="courses" (valueEmitter)="receivePercentage($event)"></app-slider-container>
+    <app-slider></app-slider>
 </div>

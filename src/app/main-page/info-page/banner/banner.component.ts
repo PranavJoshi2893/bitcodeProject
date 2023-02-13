@@ -13,10 +13,7 @@ export class BannerComponent implements OnInit{
   constructor(private _bitcodeService:BitcodeService){}
 
   ngOnInit(): void {
-    this._bitcodeService.getBannerImages().subscribe(data=>{
-      this.images=data;
-      console.log(this.images);
-    });
+    this._bitcodeService.getBannerImages().subscribe(data=>this.images=data);
   }
 
 }

@@ -9,11 +9,17 @@ import { InfoPageComponent } from './main-page/info-page/info-page.component';
 import { CourseComponentComponent } from './main-page/info-page/course-component/course-component.component';
 import { ClientAndRecruitersComponent } from './main-page/info-page/client-and-recruiters/client-and-recruiters.component';
 import { CompanyInfoComponent } from './company-info/company-info.component';
-import { CourseCardComponent } from './main-page/info-page/course-component/course-card/course-card.component';
 import { BitcodeService } from './bitcode.service';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './main-page/page-not-found/page-not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AdvantageBitcodeComponent } from './main-page/info-page/advantage-bitcode/advantage-bitcode.component';
+import { AdvantageCardComponent } from './main-page/info-page/advantage-bitcode/advantage-card/advantage-card.component';
+import { LifeAtBitcodeComponent } from './main-page/info-page/life-at-bitcode/life-at-bitcode.component';
+import { TestimonialsComponent } from './main-page/info-page/testimonials/testimonials.component';
+import { BannerComponent } from './main-page/info-page/banner/banner.component';
+import { BannerContainerComponent } from './main-page/info-page/banner/banner-container/banner-container.component';
+import { ContainerComponent } from './main-page/info-page/container/container.component';
 
 
 // angular material------------------------------------------------------------------------------------------------------
@@ -24,12 +30,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatRippleModule} from '@angular/material/core';
-import { AdvantageBitcodeComponent } from './main-page/info-page/advantage-bitcode/advantage-bitcode.component';
-import { AdvantageCardComponent } from './main-page/info-page/advantage-bitcode/advantage-card/advantage-card.component';
-import { LifeAtBitcodeComponent } from './main-page/info-page/life-at-bitcode/life-at-bitcode.component';
-import { TestimonialsComponent } from './main-page/info-page/testimonials/testimonials.component';
-import { BannerComponent } from './main-page/info-page/banner/banner.component';
-import { BannerContainerComponent } from './main-page/info-page/banner/banner-container/banner-container.component';
+import { SliderContainerComponent } from './main-page/info-page/slider-container/slider-container.component';
+import { SliderComponent } from './main-page/info-page/slider/slider.component';
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -40,14 +42,16 @@ import { BannerContainerComponent } from './main-page/info-page/banner/banner-co
     CourseComponentComponent,
     ClientAndRecruitersComponent,
     CompanyInfoComponent,
-    CourseCardComponent,
     PageNotFoundComponent,
     AdvantageBitcodeComponent,
     AdvantageCardComponent,
     LifeAtBitcodeComponent,
     TestimonialsComponent,
     BannerComponent,
-    BannerContainerComponent
+    BannerContainerComponent,
+    ContainerComponent,
+    SliderContainerComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

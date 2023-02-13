@@ -1,0 +1,13 @@
+.wrapper{
+    height: 550px;
+    display: grid;
+    position: relative;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-behavior:smooth;
+    column-gap: 18px;
+}
+.wrapper::-webkit-scrollbar{
+    display: none;
+}
