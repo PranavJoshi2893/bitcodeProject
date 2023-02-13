@@ -18,11 +18,11 @@ import { LifeAtBitcodeComponent } from './main-page/home-page/life-at-bitcode/li
 import { TestimonialsComponent } from './main-page/home-page/testimonials/testimonials.component';
 import { BannerComponent } from './main-page/home-page/banner/banner.component';
 import { BannerContainerComponent } from './main-page/home-page/banner/banner-container/banner-container.component';
-import { ContainerComponent } from './main-page/home-page/container/container.component';
 import { SliderContainerComponent } from './main-page/home-page/slider-container/slider-container.component';
 import { SliderComponent } from './main-page/home-page/slider/slider.component';
 import { CourseComponentComponent } from './main-page/home-page/course-component/course-component.component';
 import { ClientAndRecruitersComponent } from './main-page/home-page/client-and-recruiters/client-and-recruiters.component';
+import { CardContainerComponent } from './main-page/home-page/card-container/card-container.component';
 //-----------------------------------------------------------------------------------------------------------------------
 
 // angular material------------------------------------------------------------------------------------------------------
@@ -33,7 +33,6 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatRippleModule} from '@angular/material/core';
-
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -49,10 +48,10 @@ import {MatRippleModule} from '@angular/material/core';
     TestimonialsComponent,
     BannerComponent,
     BannerContainerComponent,
-    ContainerComponent,
     SliderContainerComponent,
     SliderComponent,
-    HomePageComponent
+    HomePageComponent,
+    CardContainerComponent
   ],
   imports: [
     BrowserModule,
