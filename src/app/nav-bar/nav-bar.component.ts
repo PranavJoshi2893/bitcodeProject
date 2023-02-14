@@ -35,13 +35,11 @@ export class NavBarComponent implements OnInit,OnChanges {
 
   condition:boolean=false;
   
-  onSelect(){
-    if(this.condition==false){
-      this.condition=true;
-    }
-    else{
-      this.condition=false;
-    }
+  onHover(){
+    this.condition=true;
+  }
+  onLeave(){
+    this.condition=false;
   }
   
 }

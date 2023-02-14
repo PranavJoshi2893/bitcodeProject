@@ -43,6 +43,9 @@ import {MatRippleModule} from '@angular/material/core';
 import { PlacementsPageComponent } from './main-page/placements-page/placements-page.component';
 import { AboutusPageComponent } from './main-page/aboutus-page/aboutus-page.component';
 import { ContactPageComponent } from './main-page/contact-page/contact-page.component';
+import { SectionHeadingComponent } from './main-page/section-heading/section-heading.component';
+import { SectionBodyComponent } from './main-page/section-body/section-body.component';
+import { AllCoursesComponent } from './main-page/all-courses/all-courses.component';
 //-----------------------------------------------------------------------------------------------------------------------
 
 @NgModule({
@@ -68,7 +71,10 @@ import { ContactPageComponent } from './main-page/contact-page/contact-page.comp
     ClientsPageComponent,
     PlacementsPageComponent,
     AboutusPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    SectionHeadingComponent,
+    SectionBodyComponent,
+    AllCoursesComponent
   ],
   imports: [
     BrowserModule,

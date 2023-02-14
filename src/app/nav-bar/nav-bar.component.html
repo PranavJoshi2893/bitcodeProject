@@ -4,14 +4,14 @@
       <span class="spacer"></span>
         
         <nav *ngIf="turnOnOff()" class="btn-container-wrapper">
-            <button mat-flat-button routerLink="/home">Home</button>
-            <button mat-flat-button (click)="onSelect()" routerLink="/courses">Courses</button>
-            <button mat-flat-button routerLink="DMAD">DMAD</button>
-            <button mat-flat-button routerLink="schedule">Schedule</button>
-            <button mat-flat-button routerLink="clients">Clients</button>
-            <button mat-flat-button routerLink="placements">Placements</button>
-            <button mat-flat-button routerLink="about-us">About Us</button>
-            <button mat-flat-button routerLink="contact">Contact</button>
+            <button class="btn" (mouseenter)="onLeave()" routerLink="/home">Home</button>
+            <button class="btn" (mouseenter)="onHover()" (click)="onLeave()" routerLink="/courses">Courses</button>
+            <button class="btn" (mouseenter)="onLeave()" routerLink="DMAD">DMAD</button>
+            <button class="btn" routerLink="schedule">Schedule</button>
+            <button class="btn" routerLink="clients">Clients</button>
+            <button class="btn" routerLink="placements">Placements</button>
+            <button class="btn" routerLink="about-us">About Us</button>
+            <button class="btn" routerLink="contact">Contact</button>
         </nav>
 
         <button mat-icon-button *ngIf="!turnOnOff()">
@@ -21,7 +21,7 @@
 </div>
 
 
-<mat-card *ngIf="condition" style="border-radius: 0%;">
+<mat-card *ngIf="condition" style="border-radius: 0%;" (mouseleave)="onLeave()">
     <mat-grid-list cols="4" rowHeight="300px">
       <mat-grid-tile *ngFor="let course of courses">
         <div class="container">

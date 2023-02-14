@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <mat-card *ngFor="let course of courses">
+        <mat-card-header>
+            <mat-card-title>{{course.courseName}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <button *ngFor="let Topic of course.subCourse" class="btn">{{Topic.subCourseName}}</button>
+        </mat-card-content>
+    </mat-card>
+</div>

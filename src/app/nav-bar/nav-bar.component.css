@@ -20,16 +20,34 @@ img{
     height: 100%;
     align-items: center;
 }
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px 5px;
+    border: none;
+    background-color: white;
+    font-size: 1.0rem;
+    font-weight:500;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.05);
+    color: rgb(48, 48, 48);
+}
 .btn-type2{
-    margin: 5px 10px;
+    margin: 0px 10px;
     width: 60%;
     text-align: left;
     height: 40px;
     border-radius: 20px;
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color: white;
     border: none;
+    font-size: 1.0rem;
+    font-weight:500;
 }
 .btn-type2:hover{
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: rgba(128, 128, 128, 0.05);
     cursor: pointer;
+    color: rgb(48, 48, 48);
 }
