@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class BitcodeService {
 
   private _url:string="./assets/data/courseData.json";
-  private _advantageUrl:string="./assets/data/advantageBitcode.json";
+  private _advantageUrl:string="./assets/data/cardData.json";
   private _bannerImagesUrl:string="./assets/data/banner-images.json";
   constructor(private _http:HttpClient) { }
 
@@ -16,7 +16,7 @@ export class BitcodeService {
     return this._http.get<any>(this._url);
   }
 
-  getAdvantageData():Observable<any>{
+  getCardData():Observable<any>{
     return this._http.get<any>(this._advantageUrl);
   }
   

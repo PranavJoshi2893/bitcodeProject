@@ -1,7 +1,7 @@
 .wrapper{
     width: 400px;
     height: 500px;
-    justify-content: space-between;
+    justify-content: space-around;
     position:relative;
 }
 .wrapper::before{
@@ -16,8 +16,8 @@
     z-index: 0;
 }
 .wrapper:hover::before{
-    width: 400px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
 }
 img{
     height: 200px;

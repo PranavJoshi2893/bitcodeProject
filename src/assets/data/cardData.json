@@ -1,0 +1,21 @@
+[
+    {
+        "bitcodeAdvatagesCard":
+            [
+                {"img":"../../../../../assets/images_advantage/adv_livePrjct.png","description":"BitCode is known for it's industry standard, best quality training. Our innovative training methodologies help students build a strong technical base and secure a great career!"},
+                {"img":"../../../../../assets/images_advantage/adv_placement.png","description":"450+ Recruiters 90% + Avg. Placement 25+ Avg Calls per student 2.4 lacs/anum Avg. Sal"},
+                {"img":"../../../../../assets/images_advantage/adv_quality.png","description":"Our students get chance to work on live projects, which helps them sharpen their skills and develop better understanding of technology."},
+                {"img":"../../../../../assets/images_advantage/adv_support.png","description":"We provide placement support to our students till the time they don't get through. In this coomplete placement process we are very transparent to our students as well as recruiters."}
+            ]
+    },
+    {
+        "jobOrientedCourseCard":
+            [
+                {"course":"DMAD(Diploma in Mobile Application Development)","img":"./assets/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg"},
+                {"course":"Web Expert(Full Stack Web Development)","img":"./assets/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg"},
+                {"course":"JAVA Expert(Full Stack JAVA Development)","img":"./assets/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg"},
+                {"course":"Android Expert(Core JAVA,Android)","img":"./assets/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg"},
+                {"course":"iExpert(C,C++,Swift,iOS)","img":"./assets/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg"}
+            ]
+    }
+]

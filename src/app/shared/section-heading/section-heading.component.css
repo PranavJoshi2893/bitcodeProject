@@ -1,4 +1,4 @@
 .wrapper{
     width: 100vw;
-    height: 400px;
+    height: min-content;
 }

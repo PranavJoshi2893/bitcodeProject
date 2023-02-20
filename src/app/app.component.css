@@ -8,11 +8,11 @@ header{
 main{
     width: 100vw;
     position: relative;
-    top: 68px;
+    top: 65px;
     left: 0;
 }
 footer{
     position: relative;
-    top: 68px;
+    top: 65px;
     width: 100vw;
 }
