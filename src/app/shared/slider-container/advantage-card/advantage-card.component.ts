@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-advantage-card',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./advantage-card.component.css']
 })
 export class AdvantageCardComponent {
+
+  @Input()advantage:any;
 
 }

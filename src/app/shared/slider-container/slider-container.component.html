@@ -1,6 +1,6 @@
 <div class="wrapper" *ngIf="id==0" >
     <div *ngFor="let advantage of advantages.bitcodeAdvatagesCard">
-        <app-advantage-card></app-advantage-card>
+        <app-advantage-card [advantage]="advantage"></app-advantage-card>
     </div>
 </div>
 
