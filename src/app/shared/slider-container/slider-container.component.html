@@ -1,10 +1,10 @@
-<div class="wrapper" *ngIf="id==0" >
-    <div *ngFor="let advantage of advantages.bitcodeAdvatagesCard">
+<div class="wrapper" *ngIf="id==0" #advantageCardContainer>
+    <div *ngFor="let advantage of advantages.bitcodeAdvatagesCard" >
         <app-advantage-card [advantage]="advantage"></app-advantage-card>
     </div>
 </div>
 
-<div class="wrapper" *ngIf="id==1">
+<div class="wrapper" *ngIf="id==1" #courseCardContainer>
     <div *ngFor="let course of courses.jobOrientedCourseCard">
         <app-course-card [course]="course"></app-course-card>
     </div>
