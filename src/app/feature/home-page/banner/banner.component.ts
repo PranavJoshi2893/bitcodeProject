@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BitcodeService } from 'src/app/bitcode.service';
+import { BannerImage } from 'src/app/model/banner-image';
 
 @Component({
   selector: 'app-banner',
@@ -8,12 +9,14 @@ import { BitcodeService } from 'src/app/bitcode.service';
 })
 export class BannerComponent implements OnInit{
 
-  images:any[]=[]
+  images:BannerImage[]=[];
 
   constructor(private _bitcodeService:BitcodeService){}
 
   ngOnInit(): void {
-    this._bitcodeService.getBannerImages().subscribe(data=>this.images=data);
+    this._bitcodeService.getBannerImages().subscribe(data=>{
+      this.images=data;
+    });
   }
 
 }

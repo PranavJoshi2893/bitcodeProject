@@ -8,6 +8,6 @@ import { Component} from '@angular/core';
 })
 export class CourseComponentComponent {
 
-  id:number=1;
+  id=1;
 
 }

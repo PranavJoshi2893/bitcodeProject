@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { BitcodeService } from 'src/app/bitcode.service';
 
 @Component({
@@ -6,9 +6,9 @@ import { BitcodeService } from 'src/app/bitcode.service';
   templateUrl: './slider-container.component.html',
   styleUrls: ['./slider-container.component.css']
 })
-export class SliderContainerComponent {
+export class SliderContainerComponent implements OnInit{
 
-  @Input() id:number=0
+  @Input() id=0
   advantages:any=[];
 
   constructor(private _bitcodeService:BitcodeService){}

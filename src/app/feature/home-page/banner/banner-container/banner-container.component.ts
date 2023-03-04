@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class BannerContainerComponent{
 
-  @Input() bannerImage:string="";
+  @Input() bannerImage="";
 
 }

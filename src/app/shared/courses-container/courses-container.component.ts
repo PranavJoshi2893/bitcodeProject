@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { BitcodeService } from 'src/app/bitcode.service';
 
 @Component({
@@ -6,7 +6,7 @@ import { BitcodeService } from 'src/app/bitcode.service';
   templateUrl: './courses-container.component.html',
   styleUrls: ['./courses-container.component.css']
 })
-export class CoursesContainerComponent {
+export class CoursesContainerComponent implements OnInit{
 
   courses:any=[];
 

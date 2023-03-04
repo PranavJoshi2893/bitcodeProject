@@ -1,5 +1,4 @@
-import { Component, HostListener, OnChanges, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, OnChanges, OnInit } from '@angular/core';
 import { BitcodeService } from 'src/app/bitcode.service';
 
 @Component({
@@ -33,7 +32,7 @@ export class NavBarComponent implements OnInit,OnChanges {
     }
   }
 
-  condition:boolean=false;
+  condition=false;
   
   onHover(){
     this.condition=true;
