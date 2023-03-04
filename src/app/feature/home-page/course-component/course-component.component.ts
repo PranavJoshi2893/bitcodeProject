@@ -10,9 +10,4 @@ export class CourseComponentComponent {
 
   id:number=1;
 
-  percentage:number=0;
-  receivePercentage(event:number){
-    this.percentage=event;
-  }
-
 }

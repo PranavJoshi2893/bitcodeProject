@@ -10,18 +10,20 @@ import { HomePageComponent } from './feature/home-page/home-page.component';
 import { PageNotFoundComponent } from './feature/page-not-found/page-not-found.component';
 import { PlacementsPageComponent } from './feature/placements-page/placements-page.component';
 import { SchedulePageComponent } from './feature/schedule-page/schedule-page.component';
+import { IndividualCourseComponent } from './shared/individual-course/individual-course.component';
 
 const routes: Routes = [
-  {path:"",redirectTo:"home",pathMatch:"full"},
-  {path:"home",component:HomePageComponent},
-  {path:"courses",component:CoursesPageComponent},
-  {path:"DMAD",component:DMADPageComponent},
-  {path:"schedule",component:SchedulePageComponent},
-  {path:"clients",component:ClientsPageComponent},
-  {path:"placements",component:PlacementsPageComponent},
-  {path:"about-us",component:AboutusPageComponent},
-  {path:"contact",component:ContactPageComponent},
-  {path:"**",component:PageNotFoundComponent}
+  { path: "", redirectTo: "home", pathMatch: "full" },
+  { path: "home", component: HomePageComponent },
+  { path: "courses", component: CoursesPageComponent },
+  { path: "DMAD", component: DMADPageComponent },
+  { path: "schedule", component: SchedulePageComponent },
+  { path: "clients", component: ClientsPageComponent },
+  { path: "placements", component: PlacementsPageComponent },
+  { path: "about-us", component: AboutusPageComponent },
+  { path: "contact", component: ContactPageComponent },
+  { path: "individual_course/:courseId/:subCourseId",component:IndividualCourseComponent },
+  { path: "**", component: PageNotFoundComponent }
 ];
 
 @NgModule({

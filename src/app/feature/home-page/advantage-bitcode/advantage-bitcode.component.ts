@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AdvantageBitcodeComponent {
 
-  id=0;
-
-  percentage:number=0;
-  receivePercentage(event:number){
-    this.percentage=event;
-  }
-
 }

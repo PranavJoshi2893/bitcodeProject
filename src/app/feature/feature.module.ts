@@ -17,10 +17,10 @@ import { ClientAndRecruitersComponent } from './home-page/client-and-recruiters/
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PlacementsPageComponent } from './placements-page/placements-page.component';
 import { SchedulePageComponent } from './schedule-page/schedule-page.component';
-
 import { SharedModule } from "../shared/shared.module";
 
 import {MatCardModule} from '@angular/material/card';
+import { AppRoutingModule } from '../app-routing.module';
 
 @NgModule({
     declarations: [
@@ -64,7 +64,8 @@ import {MatCardModule} from '@angular/material/card';
     imports: [
         CommonModule,
         SharedModule,
-        MatCardModule
+        MatCardModule,
+        AppRoutingModule
     ]
 })
 export class FeatureModule { }

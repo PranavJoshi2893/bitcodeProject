@@ -26,7 +26,7 @@
       <mat-grid-tile *ngFor="let course of courses">
         <div class="container">
           <h2>{{course.courseName}}</h2>
-          <button class="btn-type2" *ngFor="let subCourse of course.subCourse" routerLink="/individualCourse">
+          <button class="btn-type2" *ngFor="let subCourse of course.subCourse" routerLink="/individual_course/{{course.courseId}}/{{subCourse.subCourseId}}">
             <div style="margin-left: 20px;">
               {{subCourse.subCourseName}}
             </div>

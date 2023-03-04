@@ -15,7 +15,6 @@ export class AllCoursesComponent implements OnInit{
   ngOnInit(): void {
     this._bitcodeService.getData().subscribe(data=>{
       this.courses=data.course;
-      console.log(this.courses);
     })
   }
 
